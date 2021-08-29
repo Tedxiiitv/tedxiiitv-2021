@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LazyImage from "./Components/LazyImage/LazyImage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="App"
+      style={{ width: "100vw", height: "100vh", background: "#000000" }}
+    >
+      <div style={{ height: "10%" }}></div>
+      <div style={{ height: "80%" }}>
+        <LazyImage src={`images/tedxbackground.png`} />
+      </div>
+      <div style={{ height: "10%" }}></div>
     </div>
   );
 }
