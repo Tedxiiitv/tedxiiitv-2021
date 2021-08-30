@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function LazyImage({ src }) {
-  const [source, setSource] = useState("images/tedxbackground.pnh");
+  const [source, setSource] = useState("");
 
   useEffect(() => {
     console.log(src);
