@@ -1,0 +1,15 @@
+#navbar{
+    display: flex;
+    height: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    .navbar__link{
+        font-family: 'Gill Sans', sans-serif;
+        font-size: 30px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-style: normal;
+        margin-right: 7.25vw;
+    }
+}
