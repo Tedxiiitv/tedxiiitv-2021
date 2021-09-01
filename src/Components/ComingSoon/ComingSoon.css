@@ -1,0 +1,67 @@
+.red {
+  color: #E62B1E;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.flex-container .ted {
+  font-family: Helvetica Neue, Helvetica;
+  font-weight: 900;
+  font-size: 80px;
+  letter-spacing: -0.28rem;
+  top: -15px;
+  position: relative;
+}
+
+.flex-container .ted-x {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+  position: absolute;
+}
+
+.flex-container .iiitv {
+  font-family: Helvetica Neue, Helvetica;
+  font-weight: 400;
+  font-size: 80px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.subtitle {
+  font-family: Helvetica Neue, Helvetica;
+  font-weight: 700;
+  font-size: 19px;
+  position: relative;
+  top: -35px;
+}
+
+.coming-soon {
+  font-family: La Belle Aurore;
+  font-size: 50px;
+  font-weight: 400;
+  position: relative;
+  top: 175px;
+}
+
+p {
+  margin: 0;
+}
+/*# sourceMappingURL=ComingSoon.css.map */

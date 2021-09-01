@@ -1,17 +1,13 @@
 import "./App.css";
-import LazyImage from "./Components/LazyImage/LazyImage";
+import ComingSoon from "./Components/ComingSoon/ComingSoon"
 
 function App() {
   return (
     <div
       className="App"
-      style={{ width: "100vw", height: "100vh", background: "#000000" }}
+      style={{ width: "100vw", height: "100vh", backgroundImage: `url("images/tedxbackground.png")`}}
     >
-      <div style={{ height: "10%" }}></div>
-      <div style={{ height: "80%" }}>
-        <LazyImage src={`images/tedxbackground.png`} />
-      </div>
-      <div style={{ height: "10%" }}></div>
+      <ComingSoon />
     </div>
   );
 }
