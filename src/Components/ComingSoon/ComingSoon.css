@@ -1,9 +1,9 @@
 .red {
-  color: #E62B1E;
+  color: #e62b1e;
 }
 
 .white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .flex-container {
@@ -33,7 +33,7 @@
 .flex-container .ted-x {
   font-weight: 700;
   font-size: 36px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri;
   position: absolute;
 }
 
