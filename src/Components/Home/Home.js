@@ -13,7 +13,7 @@ function Home() {
         backgroundImage: `url("images/tedxbackground.png")`,
       }}
     >
-      <Navbar />
+      <Navbar name="About Us" link="/about"/>
       <ComingSoon />
       <Timer />
     </div>

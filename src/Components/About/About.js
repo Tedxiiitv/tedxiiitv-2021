@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Navbar from "../Navbar/Navbar";
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
         backgroundImage: `url("images/tedxbackground.png")`,
       }}
     >
+      <Navbar name="Back" link="/"/>
       <div className="about">
         <div className="flex-container">
           <div className="flex-child ted red">
