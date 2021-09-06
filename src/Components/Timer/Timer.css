@@ -1,5 +1,5 @@
 .timer-container {
-  background-color: black;
+  padding-top: 4vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,7 +27,7 @@
 }
 
 .timer-container .timer-item .timer-subtitle {
-  padding-top: 37px;
+  padding-top: 20px;
   font-family: "Avenir Next", "Avenir Next MT", Calibri;
   font-weight: 800;
   font-size: 80px;
