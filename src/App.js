@@ -1,24 +1,14 @@
 import "./App.css";
-import ComingSoon from "./Components/ComingSoon/ComingSoon";
-import Timer from "./Components/Timer/Timer";
-
-import Navbar from "./Components/Navbar/Navbar";
-
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
 
 function App() {
   return (
-      <div
-        className="App"
-        style={{
-          width: "100wh",
-          height: "100vh",
-          backgroundImage: `url("images/tedxbackground.png")`,
-        }}
-      >
-        <Navbar/>
-        <ComingSoon />
-        <Timer />
-      </div>
+    <Router>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+    </Router>
   );
 }
 
