@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import ComingSoon from "../ComingSoon/ComingSoon";
 import Timer from "../Timer/Timer";
-import DownScrollToggler from "../DownSrcollToggler/DownScrollToggler";
 
 function Home() {
   return (
@@ -15,7 +14,6 @@ function Home() {
       }}
     >
       <ComingSoon />
-      <DownScrollToggler />
       <Navbar name="About Us" link="/about"/>
       <Timer />
     </div>

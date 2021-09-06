@@ -1,37 +1,64 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .about {
   padding: 8% 23% 8% 23%;
 
-  .flex-container {
-    justify-content: left;
-
-    .ted {
-      font-size: 50px;
-      top: -12px;
-    }
-    .ted-x {
-      position: relative;
-      font-size: 36px;
-      top: -10px;
-      padding-left: 3px;
-    }
-    .iiitv {
-      padding-left: 0;
-      font-size: 47px;
-      font-weight: 400;
-    }
+  .red {
+    color: #e62b1e;
   }
-  .subtitle {
-    font-size: 10px;
-    font-weight: 700;
-    top: -25px;
+  
+  .white {
+    color: #ffffff;
+  }
+  
+  #parent-logo{
+    padding: 0;
+    #child-flex {
+      display: flex;
+      width: fit-content;
+  
+      .ted {
+        font-family: Helvetica Neue, Helvetica;
+        font-weight: 900;
+        font-size: 50px;
+        letter-spacing: -0.4rem;
+      }
+      
+      .ted-x {
+        font-weight: 700;
+        font-size: 24px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri;
+        position: relative;
+        top: 16px;
+        left: 7px;
+      }
+      .iiitv {
+        font-family: Helvetica Neue, Helvetica;
+        font-weight: 400;
+        font-size: 47px;
+        position: relative;
+        top: 11px;
+        left: 8px;
+      }
+    }
+    
+    .subtitle {
+      font-family: Helvetica Neue, Helvetica;
+      font-weight: 700;
+      font-size: 16px;
+      position: relative;
+      top: -4px;
+    }
   }
 
   .line {
-    margin: 0;
     width: 45%;
     height: 0.01em;
     background-color: white;
-    margin-bottom: 30px;
+    margin: 30px 0 10px 0;
   }
 
   .about-button {

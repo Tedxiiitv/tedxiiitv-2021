@@ -13,11 +13,11 @@
   color: #ffffff;
 }
 
-#parent-comingsoon {
-  padding: 8% 0 0 6%;
+#parent-logo {
+  padding: 10% 0 0 6%;
 }
 
-#parent-comingsoon #child-flex {
+#parent-logo #child-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,14 +26,14 @@
   width: fit-content;
 }
 
-#parent-comingsoon #child-flex .ted {
+#parent-logo #child-flex .ted {
   font-family: Helvetica Neue, Helvetica;
   font-weight: 900;
   font-size: 85px;
   letter-spacing: -0.4rem;
 }
 
-#parent-comingsoon #child-flex .ted-x {
+#parent-logo #child-flex .ted-x {
   font-weight: 700;
   font-size: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri;
@@ -41,7 +41,7 @@
   top: 26px;
 }
 
-#parent-comingsoon .iiitv {
+#parent-logo .iiitv {
   font-family: Helvetica Neue, Helvetica;
   font-weight: 400;
   font-size: 75px;
@@ -49,7 +49,7 @@
   top: -20px;
 }
 
-#parent-comingsoon .subtitle {
+#parent-logo .subtitle {
   font-family: Helvetica Neue, Helvetica;
   font-weight: 700;
   font-size: 20px;
@@ -61,6 +61,6 @@
   font-family: La Belle Aurore;
   font-size: 50px;
   font-weight: 400;
-  padding-top: 130px;
+  padding: 109px 0 130px 6%;
 }
 /*# sourceMappingURL=ComingSoon.css.map */

@@ -3,7 +3,8 @@ import "./ComingSoon.css";
 
 function ComingSoon() {
   return (
-      <div id="parent-comingsoon">
+    <div>
+      <div id="parent-logo">
       <div id="child-flex">
         <div className="ted red">TED</div>
         <div className="ted-x red">X</div>
@@ -12,8 +13,9 @@ function ComingSoon() {
       <div className="subtitle white">
         <span className="red">x</span> = independently organized TED event
       </div>
-      <div className="coming-soon white">Coming Soon</div>
       </div>
+      <div className="coming-soon white">Coming Soon</div>
+    </div>
   );
 }
 
