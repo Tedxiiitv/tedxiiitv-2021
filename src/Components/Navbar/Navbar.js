@@ -1,11 +1,12 @@
 import React from "react";
 import "./Navbar.css";
-function Navbar() {
+
+function Navbar(props) {
   return (
     <nav id="navbar">
       <span>
-        <a href="/about" className="navbar__link">
-          About Us
+        <a href={props.link} className="navbar__link">
+          {props.name}
         </a>
       </span>
     </nav>
