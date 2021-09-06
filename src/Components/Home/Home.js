@@ -5,14 +5,7 @@ import Timer from "../Timer/Timer";
 
 function Home() {
   return (
-    <div
-      className="App"
-      style={{
-        width: "100wh",
-        height: "100vh",
-        backgroundImage: `url("images/tedxbackground.png")`,
-      }}
-    >
+    <div className="App">
       <ComingSoon />
       <Navbar name="About Us" link="/about"/>
       <Timer />
