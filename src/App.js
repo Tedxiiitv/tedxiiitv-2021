@@ -1,18 +1,14 @@
 import "./App.css";
-import LazyImage from "./Components/LazyImage/LazyImage";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
 
 function App() {
   return (
-    <div
-      className="App"
-      style={{ width: "100vw", height: "100vh" }}
-    >
-      {/* <div style={{ height: "10%" }}></div>
-      <div style={{ height: "80%" }}>
-        <LazyImage src={`images/tedxbackground.png`} />
-      </div>
-      <div style={{ height: "10%" }}></div> */}
-    </div>
+    <Router>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+    </Router>
   );
 }
 

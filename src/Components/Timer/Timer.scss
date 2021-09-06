@@ -1,0 +1,28 @@
+.timer-container {
+  padding-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .timer-item {
+    padding: 4%;
+    text-align: center;
+
+    .timer-title {
+      justify-content: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 300;
+      font-size: 24px;
+      // font-size : 1.875vw;
+    }
+
+    .timer-subtitle {
+      padding-top: 20px;
+      font-family: "Avenir Next", "Avenir Next MT", Calibri;
+      font-weight: 800;
+      font-size: 80px;
+      // font-size: 6.25vw;
+    }
+  }
+}
