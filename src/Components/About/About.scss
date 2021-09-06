@@ -1,0 +1,58 @@
+.about {
+  padding: 8% 23% 8% 23%;
+
+  .flex-container {
+    justify-content: left;
+
+    .ted {
+      font-size: 50px;
+      top: -12px;
+    }
+    .ted-x {
+      position: relative;
+      font-size: 36px;
+      top: -10px;
+      padding-left: 3px;
+    }
+    .iiitv {
+      padding-left: 0;
+      font-size: 47px;
+      font-weight: 400;
+    }
+  }
+  .subtitle {
+    font-size: 10px;
+    font-weight: 700;
+    top: -25px;
+  }
+
+  .line {
+    margin: 0;
+    width: 45%;
+    height: 0.01em;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+
+  .about-button {
+    background-color: #c90d00;
+    width: 210px;
+    height: 60px;
+    box-shadow: 0px 0px 10px rgba(228, 228, 228, 0.25);
+    border-radius: 8px;
+
+    .about-button-text {
+      font-weight: 300;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 26px;
+    }
+  }
+
+  .about-text {
+    font-size: 23px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 400;
+  }
+}
