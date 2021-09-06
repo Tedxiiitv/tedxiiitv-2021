@@ -1,15 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 #navbar{
     display: flex;
-    height: 100%;
+    width: 100%;
     flex-direction: row-reverse;
     align-items: center;
+    padding: 22px;
     .navbar__link{
         font-family: 'Gill Sans', sans-serif;
-        font-size: 30px;
+        font-size: 26px;
         text-decoration: none;
         color: #FFFFFF;
-        font-weight: 300;
+        font-weight:100;
         font-style: normal;
-        margin-right: 7.25vw;
+        margin-right: 6vw;
     }
 }

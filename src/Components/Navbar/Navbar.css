@@ -1,8 +1,15 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 #navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
+  width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -10,15 +17,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 22px;
 }
 
 #navbar .navbar__link {
   font-family: 'Gill Sans', sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   text-decoration: none;
   color: #FFFFFF;
-  font-weight: 300;
+  font-weight: 100;
   font-style: normal;
-  margin-right: 7.25vw;
+  margin-right: 6vw;
 }
-/*# sourceMappingURL=navbar.css.map */
+/*# sourceMappingURL=Navbar.css.map */
