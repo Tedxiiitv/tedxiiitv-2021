@@ -16,9 +16,8 @@ function Home() {
     >
       <ComingSoon />
       <DownScrollToggler />
-      <Navbar />
+      <Navbar name="About Us" link="/about"/>
       <Timer />
-      <DownScrollToggler />
     </div>
   );
 }
