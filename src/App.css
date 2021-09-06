@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("./Fonts/AvenirNextLTPro-Heavy.otf");
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("./Fonts/gill-sans.otf");
+}
