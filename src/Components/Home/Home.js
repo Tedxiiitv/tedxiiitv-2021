@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import ComingSoon from "../ComingSoon/ComingSoon";
 import Timer from "../Timer/Timer";
+import DownScrollToggler from "../DownSrcollToggler/DownScrollToggler";
 
 function Home() {
   return (
@@ -13,9 +14,11 @@ function Home() {
         backgroundImage: `url("images/tedxbackground.png")`,
       }}
     >
-      <Navbar />
       <ComingSoon />
+      <DownScrollToggler />
+      <Navbar />
       <Timer />
+      <DownScrollToggler />
     </div>
   );
 }

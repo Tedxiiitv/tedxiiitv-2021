@@ -1,3 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .red {
   color: #e62b1e;
 }
@@ -6,61 +13,54 @@
   color: #ffffff;
 }
 
-.flex-container {
+#parent-comingsoon {
+  padding: 8% 0 0 6%;
+}
+
+#parent-comingsoon #child-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.flex-container .ted {
+#parent-comingsoon #child-flex .ted {
   font-family: Helvetica Neue, Helvetica;
   font-weight: 900;
-  font-size: 80px;
-  letter-spacing: -0.28rem;
-  top: -15px;
-  position: relative;
+  font-size: 85px;
+  letter-spacing: -0.4rem;
 }
 
-.flex-container .ted-x {
+#parent-comingsoon #child-flex .ted-x {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri;
-  position: absolute;
+  position: relative;
+  top: 26px;
 }
 
-.flex-container .iiitv {
+#parent-comingsoon .iiitv {
   font-family: Helvetica Neue, Helvetica;
   font-weight: 400;
-  font-size: 80px;
+  font-size: 75px;
   position: relative;
-  padding-left: 15px;
+  top: -20px;
 }
 
-.subtitle {
+#parent-comingsoon .subtitle {
   font-family: Helvetica Neue, Helvetica;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 20px;
   position: relative;
-  top: -35px;
+  top: -20px;
 }
 
 .coming-soon {
   font-family: La Belle Aurore;
   font-size: 50px;
   font-weight: 400;
-  padding-top: 110px;
-}
-
-p {
-  margin: 0;
+  padding-top: 130px;
 }
 /*# sourceMappingURL=ComingSoon.css.map */
