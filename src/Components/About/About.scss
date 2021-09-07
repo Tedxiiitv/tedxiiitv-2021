@@ -48,9 +48,10 @@ $s-mobile:350px;
         font-family: Helvetica Neue, Helvetica;
         font-weight: 900;
         font-size: 50px;
-        letter-spacing: -0.3rem;
+        letter-spacing: -0.2rem;
         @include mobile{
           font-size: 40px; 
+          letter-spacing: -0.1rem;
         }
         @include s-mobile{
           font-size: 35px;
@@ -63,9 +64,10 @@ $s-mobile:350px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri;
         position: relative;
         top: 16px;
-        left: 7px;
+        left: 6px;
         @include mobile{
           top: 12px;
+          left: 5px;
           font-size: 20px;
         }
         @include s-mobile{

@@ -40,9 +40,11 @@ $mobile:500px;
       letter-spacing: -0.4rem;
       @include mobile{
         font-size: 65px;
+        letter-spacing: -0.3rem;
       }
       @include s-mobile{
         font-size: 50px;
+        letter-spacing: -0.2rem;
       }
     }
     
@@ -52,6 +54,7 @@ $mobile:500px;
       font-family: "Gill Sans", "Gill Sans MT", Calibri;
       position: relative;
       top: 26px;
+      left: 4px;
       @include mobile{
         font-size: 25px;
         top: 20px;

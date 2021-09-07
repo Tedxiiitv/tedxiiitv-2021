@@ -37,12 +37,14 @@
 @media (max-width: 500px) {
   #parent-logo #child-flex .ted {
     font-size: 65px;
+    letter-spacing: -0.3rem;
   }
 }
 
 @media (max-width: 350px) {
   #parent-logo #child-flex .ted {
     font-size: 50px;
+    letter-spacing: -0.2rem;
   }
 }
 
@@ -52,6 +54,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri;
   position: relative;
   top: 26px;
+  left: 4px;
 }
 
 @media (max-width: 500px) {

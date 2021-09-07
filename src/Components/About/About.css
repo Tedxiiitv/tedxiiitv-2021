@@ -39,12 +39,13 @@
   font-family: Helvetica Neue, Helvetica;
   font-weight: 900;
   font-size: 50px;
-  letter-spacing: -0.3rem;
+  letter-spacing: -0.2rem;
 }
 
 @media (max-width: 500px) {
   .about .parent-logo .child-flex .ted {
     font-size: 40px;
+    letter-spacing: -0.1rem;
   }
 }
 
@@ -60,12 +61,13 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri;
   position: relative;
   top: 16px;
-  left: 7px;
+  left: 6px;
 }
 
 @media (max-width: 500px) {
   .about .parent-logo .child-flex .ted-x {
     top: 12px;
+    left: 5px;
     font-size: 20px;
   }
 }
