@@ -5,19 +5,13 @@ import "../Navbar/Navbar.css";
 
 function About() {
   return (
-    <div
-      style={{
-        width: "100vw",
-        height: "100vh",
-        backgroundImage: `url("images/tedxbackground.png")`,
-      }}
-    >
-      <Navbar name="Back" link="/"/>
+    <div>
+      <Navbar name="Home" link="/"/>
 
       <div className="about">
 
-        <div id="parent-logo">
-          <div id="child-flex">
+        <div className="parent-logo">
+          <div className="child-flex">
             <div className="ted red">TED</div>
             <div className="ted-x red">X</div>
             <div className="iiitv white">IIITVadodara</div>

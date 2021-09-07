@@ -1,3 +1,16 @@
+$tablet:740px;
+@mixin tablet{
+    @media (max-width:#{$tablet}){
+        @content
+    }
+}
+$mobile:500px;
+@mixin mobile{
+    @media (max-width:#{$mobile}){
+        @content
+    }
+}
+
 .timer-container {
   height: 90vh;
   display: flex;
@@ -5,10 +18,17 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 62px;
+  @include mobile{
+    height: 20vh;
+    padding-bottom: 0px;
+  }
 
   .timer-item {
     padding: 4%;
     text-align: center;
+    @include mobile{
+      padding: 3%;
+    }
 
     .timer-title {
       justify-content: center;
@@ -16,7 +36,12 @@
         sans-serif;
       font-weight: 300;
       font-size: 24px;
-      // font-size : 1.875vw;
+      @include tablet{
+        font-size: 20px;
+      }
+      @include mobile{
+        font-size: 15px;
+      }
     }
 
     .timer-subtitle {
@@ -24,7 +49,9 @@
       font-family: "Avenir Next", "Avenir Next MT", Calibri;
       font-weight: 800;
       font-size: 80px;
-      // font-size: 6.25vw;
+      @include tablet{
+        font-size: 9vw;
+      }
     }
   }
 }
