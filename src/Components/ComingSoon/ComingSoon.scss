@@ -3,6 +3,18 @@
   margin: 0;
   padding: 0;
 }
+$s-mobile:350px;
+@mixin s-mobile{
+    @media (max-width:#{$s-mobile}){
+        @content
+    }
+}
+$mobile:500px;
+@mixin mobile{
+    @media (max-width:#{$mobile}){
+        @content
+    }
+}
 .red {
   color: #e62b1e;
 }
@@ -12,7 +24,10 @@
 }
 
 #parent-logo{
-  padding: 10% 0 0 6%;
+  padding: 7% 0 0 6%;
+  @include mobile{
+    padding-left: 10%;
+  }
   
   #child-flex {
     display: flex;
@@ -23,6 +38,12 @@
       font-weight: 900;
       font-size: 85px;
       letter-spacing: -0.4rem;
+      @include mobile{
+        font-size: 65px;
+      }
+      @include s-mobile{
+        font-size: 50px;
+      }
     }
     
     .ted-x {
@@ -31,6 +52,15 @@
       font-family: "Gill Sans", "Gill Sans MT", Calibri;
       position: relative;
       top: 26px;
+      @include mobile{
+        font-size: 25px;
+        top: 20px;
+        left: 5px;
+      }
+      @include s-mobile{
+        font-size: 20px;
+        top: 16px;
+      }
     }
   }
   .iiitv {
@@ -39,6 +69,13 @@
     font-size: 75px;
     position: relative;
     top: -20px;
+    @include mobile{
+      font-size: 50px;
+    }
+    @include s-mobile{
+      font-size: 40px;
+      top: -15px;
+    }
   }
   
   .subtitle {
@@ -47,6 +84,12 @@
     font-size: 20px;
     position: relative;
     top: -20px;
+    @include mobile{
+      font-size: 15px;
+    }
+    @include s-mobile{
+      font-size: 12px;
+    }
   }
 }
 .coming-soon {
@@ -54,4 +97,12 @@
   font-size: 50px;
   font-weight: 400;
   padding: 109px 0 130px 6%;
+  @include mobile{
+    padding: 10% 0 10% 0;
+    text-align: center;
+    font-size: 40px;
+  }
+  @include s-mobile{
+    font-size: 30px;
+  }
 }

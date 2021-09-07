@@ -3,11 +3,32 @@
   margin: 0;
   padding: 0;
 }
+$tablet:700px;
+@mixin tablet{
+    @media (max-width:#{$tablet}){
+        @content
+    }
+}
+$mobile:500px;
+@mixin mobile{
+    @media (max-width:#{$mobile}){
+        @content
+    }
+}
+$s-mobile:350px;
+@mixin s-mobile{
+    @media (max-width:#{$s-mobile}){
+        @content
+    }
+}
 #navbar {
   padding: 44px 80px 0 0;
 }
 .about {
   padding: 6% 23% 8% 23%;
+  @include tablet{
+    padding: 6% 10% 8% 10%;
+  }
 
   .red {
     color: #e62b1e;
@@ -17,9 +38,9 @@
     color: #ffffff;
   }
   
-  #parent-logo{
+  .parent-logo{
     padding: 0;
-    #child-flex {
+    .child-flex {
       display: flex;
       width: fit-content;
   
@@ -28,6 +49,12 @@
         font-weight: 900;
         font-size: 50px;
         letter-spacing: -0.4rem;
+        @include mobile{
+          font-size: 40px; 
+        }
+        @include s-mobile{
+          font-size: 35px;
+        }
       }
       
       .ted-x {
@@ -37,6 +64,14 @@
         position: relative;
         top: 16px;
         left: 7px;
+        @include mobile{
+          top: 13px;
+          font-size: 20px;
+        }
+        @include s-mobile{
+          top: 10px;
+          font-size: 18px;
+        }
       }
       .iiitv {
         font-family: Helvetica Neue, Helvetica;
@@ -45,6 +80,13 @@
         position: relative;
         top: 11px;
         left: 8px;
+        @include mobile{
+          font-size: 35px;
+        }
+        @include s-mobile{
+          font-size: 32px;
+          top: 9px;
+        }
       }
     }
     
@@ -54,6 +96,12 @@
       font-size: 16px;
       position: relative;
       top: -4px;
+      @include mobile{
+        font-size: 15px;
+      }
+      @include s-mobile{
+        font-size: 13px;
+      }
     }
   }
 
@@ -82,7 +130,10 @@
   .about-text {
     font-size: 23px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    sans-serif;
     font-weight: 400;
+    @include tablet{
+      font-size: 18px;
+    }
   }
 }

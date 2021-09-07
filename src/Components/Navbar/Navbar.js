@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 function Navbar(props) {
   return (
-    <nav id="navbar">
+    <nav className="navbar">
       <span>
         <a href={props.link} className="navbar__link">
           {props.name}
