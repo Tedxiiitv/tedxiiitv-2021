@@ -6,8 +6,8 @@ import Timer from "../Timer/Timer";
 function Home() {
   return (
     <div className="App">
-      <Navbar name="About Us" link="/about" />
       <ComingSoon />
+      <Navbar name="About Us" link="/about"/>
       <Timer />
     </div>
   );

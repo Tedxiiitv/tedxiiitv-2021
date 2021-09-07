@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .red {
   color: #e62b1e;
 }
@@ -6,53 +11,47 @@
   color: #ffffff;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  justify-content: center;
-  width: 100%;
+#parent-logo{
+  padding: 10% 0 0 6%;
+  
+  #child-flex {
+    display: flex;
+    width: fit-content;
 
-  .ted {
-    font-family: Helvetica Neue, Helvetica;
-    font-weight: 900;
-    font-size: 80px;
-    letter-spacing: -0.28rem;
-    top: -15px;
-    position: relative;
+    .ted {
+      font-family: Helvetica Neue, Helvetica;
+      font-weight: 900;
+      font-size: 85px;
+      letter-spacing: -0.4rem;
+    }
+    
+    .ted-x {
+      font-weight: 700;
+      font-size: 30px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri;
+      position: relative;
+      top: 26px;
+    }
   }
-
-  .ted-x {
-    font-weight: 700;
-    font-size: 36px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri;
-    position: absolute;
-  }
-
   .iiitv {
     font-family: Helvetica Neue, Helvetica;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 75px;
     position: relative;
-    padding-left: 15px;
+    top: -20px;
+  }
+  
+  .subtitle {
+    font-family: Helvetica Neue, Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
   }
 }
-
-.subtitle {
-  font-family: Helvetica Neue, Helvetica;
-  font-weight: 700;
-  font-size: 19px;
-  position: relative;
-  top: -35px;
-}
-
 .coming-soon {
   font-family: La Belle Aurore;
   font-size: 50px;
   font-weight: 400;
-  padding-top: 110px;
-}
-
-p {
-  margin: 0;
+  padding: 109px 0 130px 6%;
 }
