@@ -39,7 +39,7 @@
   font-family: Helvetica Neue, Helvetica;
   font-weight: 900;
   font-size: 50px;
-  letter-spacing: -0.4rem;
+  letter-spacing: -0.3rem;
 }
 
 @media (max-width: 500px) {
@@ -65,7 +65,7 @@
 
 @media (max-width: 500px) {
   .about .parent-logo .child-flex .ted-x {
-    top: 13px;
+    top: 12px;
     font-size: 20px;
   }
 }
@@ -88,6 +88,7 @@
 
 @media (max-width: 500px) {
   .about .parent-logo .child-flex .iiitv {
+    top: 9px;
     font-size: 35px;
   }
 }
@@ -95,7 +96,7 @@
 @media (max-width: 350px) {
   .about .parent-logo .child-flex .iiitv {
     font-size: 32px;
-    top: 9px;
+    top: 8px;
   }
 }
 

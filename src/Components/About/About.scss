@@ -48,7 +48,7 @@ $s-mobile:350px;
         font-family: Helvetica Neue, Helvetica;
         font-weight: 900;
         font-size: 50px;
-        letter-spacing: -0.4rem;
+        letter-spacing: -0.3rem;
         @include mobile{
           font-size: 40px; 
         }
@@ -65,7 +65,7 @@ $s-mobile:350px;
         top: 16px;
         left: 7px;
         @include mobile{
-          top: 13px;
+          top: 12px;
           font-size: 20px;
         }
         @include s-mobile{
@@ -81,11 +81,12 @@ $s-mobile:350px;
         top: 11px;
         left: 8px;
         @include mobile{
+          top: 9px;
           font-size: 35px;
         }
         @include s-mobile{
           font-size: 32px;
-          top: 9px;
+          top: 8px;
         }
       }
     }
