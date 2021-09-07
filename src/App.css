@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-image: url(public/images/tedxbackground.png); */
 }
 
 .App-logo {
@@ -32,6 +33,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
