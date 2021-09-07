@@ -28,17 +28,24 @@ function About() {
 
         <hr className="line" />
         <div className="about-text white">
-          Congue nisi vitae suscipit tellus. Dui id ornare arcu odio ut. Ut
-          tellus elementum sagittis vitae et leo. Porttitor rhoncus dolor purus
-          non enim praesent elementum facilisis. Consectetur adipiscing elit ut
-          aliquam purus. Nulla porttitor massa id neque. Viverra tellus in hac
-          habitasse platea dictumst vestibulum rhoncus. Eget mauris pharetra et
-          ultrices neque ornare aenean euismod. Elementum eu facilisis sed odio.
-          Rutrum tellus pellentesque eu tincidunt. Lacus sed viverra tellus in
-          hac habitasse platea. At tempor commodo ullamcorper a lacus vestibulum
-          sed. Euismod elementum nisi quis eleifend quam adipiscing. Rutrum
-          tellus pellentesque eu tincidunt tortor. Nibh sed pulvinar proin
-          gravida hendrerit lectus.
+        Indian Institute of Information Technology Vadodara is 
+        one of the most rapidly growing institutes of India 
+        imparting technical knowledge. In order to break the 
+        restraints on knowledge, IIITV brings to you TEDxIIITV,
+        a learning experience like never before. Organized by 
+        the curious minds of IIITV, TEDxIIITV features live 
+        speakers sharing their thoughts on life and sparking 
+        a new flame of enthusiasm among the youth.
+        <br></br>
+        A TEDx is a worldwide network that organizes TED-style 
+        events, by bringing local ideas to a worldwide level. 
+        It aims to spread transformative ideas and innovative 
+        solutions that transcend limits, classifications, and 
+        borders to build the sort of society we all want to 
+        live in. TEDx events are produced independently from 
+        TED conferences; yet within the framework of TED's 
+        structure and regulations. 
+
         </div>
         {/* <button className="about-button">
           <span className="about-button-text white">Read More</span>
