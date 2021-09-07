@@ -1,10 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .red {
   color: #e62b1e;
 }
@@ -13,54 +6,61 @@
   color: #ffffff;
 }
 
-#parent-logo {
-  padding: 10% 0 0 6%;
-}
-
-#parent-logo #child-flex {
+.flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
-#parent-logo #child-flex .ted {
+.flex-container .ted {
   font-family: Helvetica Neue, Helvetica;
   font-weight: 900;
-  font-size: 85px;
-  letter-spacing: -0.4rem;
-}
-
-#parent-logo #child-flex .ted-x {
-  font-weight: 700;
-  font-size: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri;
+  font-size: 80px;
+  letter-spacing: -0.28rem;
+  top: -15px;
   position: relative;
-  top: 26px;
 }
 
-#parent-logo .iiitv {
+.flex-container .ted-x {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri;
+  position: absolute;
+}
+
+.flex-container .iiitv {
   font-family: Helvetica Neue, Helvetica;
   font-weight: 400;
-  font-size: 75px;
+  font-size: 80px;
   position: relative;
-  top: -20px;
+  padding-left: 15px;
 }
 
-#parent-logo .subtitle {
+.subtitle {
   font-family: Helvetica Neue, Helvetica;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 19px;
   position: relative;
-  top: -20px;
+  top: -35px;
 }
 
 .coming-soon {
   font-family: La Belle Aurore;
   font-size: 50px;
   font-weight: 400;
-  padding: 109px 0 130px 6%;
+  padding-top: 110px;
+}
+
+p {
+  margin: 0;
 }
 /*# sourceMappingURL=ComingSoon.css.map */

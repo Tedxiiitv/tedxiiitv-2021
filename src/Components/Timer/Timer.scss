@@ -1,10 +1,8 @@
 .timer-container {
-  height: 90vh;
+  padding-top: 4vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  padding-bottom: 62px;
 
   .timer-item {
     padding: 4%;

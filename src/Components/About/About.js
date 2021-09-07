@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import Navbar from "../Navbar/Navbar";
-import "../Navbar/Navbar.css";
 
 function About() {
   return (
@@ -13,19 +12,19 @@ function About() {
       }}
     >
       <Navbar name="Back" link="/"/>
-
       <div className="about">
-
-        <div id="parent-logo">
-          <div id="child-flex">
-            <div className="ted red">TED</div>
-            <div className="ted-x red">X</div>
-            <div className="iiitv white">IIITVadodara</div>
+        <div className="flex-container">
+          <div className="flex-child ted red">
+            <p>TED</p>
           </div>
-          <div className="subtitle white">
-          <span className="red">x</span> = independently organized TED event</div>
+          <div className="flex-child ted-x red">
+            <sup>x</sup>
+          </div>
+          <div className="flex-child iiitv white">IIITV</div>
         </div>
-
+        <div className="subtitle white">
+          <span className="red">x</span> = independently organized TED event
+        </div>
         <hr className="line" />
         <div className="about-text white">
           Congue nisi vitae suscipit tellus. Dui id ornare arcu odio ut. Ut
