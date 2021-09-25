@@ -4,7 +4,7 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Background from "./Components/Background/Background";
 import React from "react";
-import Team from './Components/Team/Team'
+import Team from "./Components/Team/Team";
 
 function App() {
   return (
@@ -20,3 +20,5 @@ function App() {
 }
 
 export default App;
+
+// hey develop
