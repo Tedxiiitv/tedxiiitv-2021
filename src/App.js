@@ -1,17 +1,18 @@
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-import Background from "./Components/Background/Background";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import LandingPage from "./Components/LandingPage/LandingPage";
 import React from "react";
 
 function App() {
   return (
     <React.Fragment>
-      <Background />
       <Router>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
+        <Route exact path="/">
+          <LandingPage />
+        </Route>
+        <Route path="*">
+          <Redirect />
+        </Route>
       </Router>
     </React.Fragment>
   );
