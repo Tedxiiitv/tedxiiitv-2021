@@ -18,5 +18,3 @@ function App() {
 }
 
 export default App;
-
-//checking deployment--1
