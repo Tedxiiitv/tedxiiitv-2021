@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -31,7 +32,11 @@
 }
 
 .about .parent-logo .child-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -130,7 +135,8 @@
   background-color: #c90d00;
   width: 210px;
   height: 60px;
-  box-shadow: 0px 0px 10px rgba(228, 228, 228, 0.25);
+  -webkit-box-shadow: 0px 0px 10px rgba(228, 228, 228, 0.25);
+          box-shadow: 0px 0px 10px rgba(228, 228, 228, 0.25);
   border-radius: 8px;
 }
 
