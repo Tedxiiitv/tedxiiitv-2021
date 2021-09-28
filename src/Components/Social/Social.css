@@ -1,0 +1,21 @@
+.social-container {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  position: absolute;
+  width: 30px;
+  height: 177.6px;
+  left: 1330px;
+  top: 317px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  padding: 10px;
+  background: none;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
