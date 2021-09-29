@@ -1,10 +1,10 @@
-import "./App.css";
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./App.css";
 import Home from "./Components/Home/Home";
+import Team from "./Components/Team/Team";
 import About from "./Components/About/About";
 import Background from "./Components/Background/Background";
-import React from "react";
-import Team from './Components/Team/Team'
 
 function App() {
   return (
