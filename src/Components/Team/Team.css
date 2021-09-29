@@ -6,11 +6,13 @@
     padding: 60px 60px 0 60px;
     box-sizing: border-box;
     height: 100vh;
+    background-color: black;
 }
 
 .team .side-border{
     flex: 0.25;
     margin-left:20px;
+    margin-right: -40px;
     border-left: 2px solid #B50008;
     height: 362px;
     width:7px;
