@@ -3,6 +3,7 @@ import { teamData } from "./utils/TeamData";
 import TeamName from "./TeamNames/TeamName";
 import TeamMember from "./TeamMembers/TeamMember";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import { useState } from "react";
 
 const Team = () => {
@@ -23,6 +24,7 @@ const Team = () => {
         <TeamMember selectedTeam={selectedTeam} />
         <div className="side-border"></div>
       </div>
+      <Footer />
     </div>
   );
 };

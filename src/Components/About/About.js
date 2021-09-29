@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 function About() {
   return (
@@ -50,6 +51,7 @@ function About() {
         </p>
         <div className="line" />
       </div>
+      <Footer />
     </div>
   );
 }
