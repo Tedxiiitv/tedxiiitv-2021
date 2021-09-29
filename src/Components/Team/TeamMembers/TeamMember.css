@@ -8,17 +8,19 @@
     display:grid;
     grid-gap: 1rem;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr;
 }
 
 .team_member{
     text-align: center;
     font-size: 21px;
+    font-family: "Gill Sans";
+    font-weight: 400;
 }
 
 .team_member img{
     border-radius: 100%;
     border:2px solid #E62B1E;
-    height: 250px;
-    width:250px;
+    height: 199px;
+    width:199px;
 }
