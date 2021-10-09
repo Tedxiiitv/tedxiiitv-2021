@@ -1,19 +1,50 @@
-.team{
+.team__container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: black;
+}
+
+.team {
     color: #ffffff;
     overflow: hidden;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     padding: 60px 60px 0 60px;
     box-sizing: border-box;
     height: 100vh;
-    background-color: black;
+    padding-bottom: 40px;
 }
 
-.team .side-border{
+.team .side-border {
     flex: 0.25;
-    margin-left:20px;
+    margin-left: 20px;
     margin-right: -40px;
     border-left: 2px solid #B50008;
     height: 362px;
-    width:7px;
+    width: 7px;
+}
+
+.lineDivider {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.lineW {
+    width: 200px;
+    height: 5px;
+    background-color: white;
+}
+
+.lineR {
+    width: 200px;
+    height: 5px;
+    background-color: #B50008;
+    margin-left: 5px;
 }

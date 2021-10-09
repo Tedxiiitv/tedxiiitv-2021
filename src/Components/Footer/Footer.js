@@ -32,16 +32,16 @@ const Footer = () => {
           <h3 className="title">Social Media</h3>
           <hr className="line" />
           <div className="social fa fa-lg">
-            <a className="social-link" href="https://twitter.com/">
+            <a className="social-link" href="https://twitter.com/" target="_blank" rel="noreferrer">
               <i className="fa fa-twitter icon"></i>
             </a>
-            <a className="social-link" href="https://www.instagram.com/">
+            <a className="social-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
               <i className="fa fa-instagram"></i>
             </a>
-            <a className="social-link" href="https://www.youtube.com/">
+            <a className="social-link" href="https://www.youtube.com/" target="_blank" rel="noreferrer">
               <i className="fa fa-youtube-play"></i>
             </a>
-            <a className="social-link" href="https://www.facebook.com/">
+            <a className="social-link" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
               <i className="fa fa-facebook"></i>
             </a>
           </div>

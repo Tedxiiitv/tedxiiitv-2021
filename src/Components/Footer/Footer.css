@@ -1,5 +1,7 @@
 .footer-wrapper {
+  border-top: 1px ridge #646464;
   padding: 4em;
+  padding-top: 95px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

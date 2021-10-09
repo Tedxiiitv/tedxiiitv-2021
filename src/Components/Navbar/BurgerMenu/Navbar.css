@@ -1,0 +1,55 @@
+.burger-menu{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(77, 77, 77, 0.25);
+    padding: 10px;
+}
+.burger-menu-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger-menu-logo .fa{
+    cursor: pointer;
+}
+.burger-menu-item{
+    height: 0;
+    opacity: 0;
+    transition: all 1s linear;
+    overflow: hidden;
+}
+.show-burger-menu{
+    opacity: 1;
+    height: auto;
+    transition: all 1s linear;
+}
+.burger-menu-logo img{
+    width: 150px
+}
+.burger-menu-item li{
+    font-size: 16px;
+    font-weight:400;
+    font-family: "Avenir Next";
+    padding: 10px 0;
+    border-bottom: 1px solid #2D2D2D;
+    line-height: 21.86px;
+}
+.burger-menu-item li a{
+    color: white;
+    text-decoration: none;
+}
+.burger-menu-item li a:hover{
+    color:rgb(230,43,30);
+}
+.burger-menu-item .burger-menu-social-link{
+    text-align: right;
+}
+.burger-menu-item .burger-menu-social-link .fa{
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .burger-menu{
+        display:none;
+    }
+}
