@@ -1,50 +1,57 @@
 import React from "react";
 import "./About.css";
 import Navbar from "../Navbar/Navbar";
-import "../Navbar/Navbar.css";
+import Footer from "../Footer/Footer";
 
 function About() {
   return (
     <div>
-      <Navbar name="Home" link="/"/>
-
-      <div className="about">
-
-        <div className="parent-logo">
-          <div className="child-flex">
-            <div className="ted red">TED</div>
-            <div className="ted-x red">X</div>
-            <div className="iiitv white">IIITVadodara</div>
-          </div>
-          <div className="subtitle white">
-          <span className="red">x</span> = independently organized TED event</div>
+      <Navbar />
+      <div className="about-cont1">
+        <div className="heading-cont">
+          <h1 className="heading1">About Tedx</h1>
+          <h3 className="sub-heading">x = independently organized TED event</h3>
         </div>
-
-        <hr className="line" />
-        <div className="about-text white">
-        Indian Institute of Information Technology Vadodara is 
-        one of the most rapidly growing institutes of India 
-        imparting technical knowledge. In order to break the 
-        restraints on knowledge, IIITV brings to you TEDxIIITV,
-        a learning experience like never before. Organized by 
-        the curious minds of IIITV, TEDxIIITV features live 
-        speakers sharing their thoughts on life and sparking 
-        a new flame of enthusiasm among the youth.
-        <br></br>
-        A TEDx is a worldwide network that organizes TED-style 
-        events, by bringing local ideas to a worldwide level. 
-        It aims to spread transformative ideas and innovative 
-        solutions that transcend limits, classifications, and 
-        borders to build the sort of society we all want to 
-        live in. TEDx events are produced independently from 
-        TED conferences; yet within the framework of TED's 
-        structure and regulations. 
-
-        </div>
-        {/* <button className="about-button">
-          <span className="about-button-text white">Read More</span>
-        </button> */}
+        <p className="content1">
+          In the spirit of ideas worth spreading, TEDx is a program of local,
+          self-organized events that bring people together to share a TED-like
+          experience. At a TEDx event, TED Talks video and live speakers combine
+          to spark deep discussion and connection. These local, self-organized
+          events are branded TEDx, where x = independently organized TED event.
+          The TED Conference provides general guidance for the TEDx program, but
+          individual TEDx events are self-organized.
+        </p>
+        <p className="content1">(Subject to certain rules and regulations)</p>
+        <div className="line" />
       </div>
+      <div className="about-cont2">
+        <h1 className="heading1">About Tedx</h1>
+        <p className="content2">
+          TED is a nonprofit organization devoted to Ideas Worth Spreading.
+          Started as a four-day conference in California 30 years ago, TED has
+          grown to support its mission with multiple initiatives. The two annual
+          TED Conferences invite the world's leading thinkers and doers to speak
+          for 18 minutes or less. Many of these talks are then made available,
+          free, at TED.com. TED speakers have included Bill Gates, Jane Goodall,
+          Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe
+          Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+        </p>
+        <p className="content2">
+          The annual TED Conference takes place each spring in Vancouver,
+          British Columbia. TED's media initiatives include TED.com, where new
+          TED Talks are posted daily; the Open Translation Project, which
+          provides subtitles and interactive transcripts as well as translations
+          from volunteers worldwide; the educational initiative TED-Ed. TED has
+          established the annual TED Prize, where exceptional individuals with a
+          wish to change the world get help translating their wishes into
+          action; TEDx, which supports individuals or groups in hosting local,
+          self- organized TED-style events around the world, and the TED Fellows
+          program, helping world-changing innovators from around the globe to
+          amplify the impact of their remarkable projects and activities.
+        </p>
+        <div className="line" />
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,139 +1,59 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-$tablet:700px;
-@mixin tablet{
-    @media (max-width:#{$tablet}){
-        @content
-    }
+.about-cont1 {
+  height: 83vh;
+  padding: 3vh 0;
 }
-$mobile:500px;
-@mixin mobile{
-    @media (max-width:#{$mobile}){
-        @content
-    }
+.about-cont2 {
+  height: 100vh;
 }
-$s-mobile:350px;
-@mixin s-mobile{
-    @media (max-width:#{$s-mobile}){
-        @content
-    }
-}
-#navbar {
-  padding: 44px 80px 0 0;
-}
-.about {
-  padding: 6% 23% 8% 23%;
-  @include tablet{
-    padding: 6% 10% 8% 10%;
-  }
-
-  .red {
+.about-cont1,
+.about-cont2 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  .heading1 {
     color: #e62b1e;
+    font-family: Avenir Next;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: 0em;
   }
-  
-  .white {
-    color: #ffffff;
-  }
-  
-  .parent-logo{
-    padding: 0;
-    .child-flex {
-      display: flex;
-      width: fit-content;
-  
-      .ted {
-        font-family: Helvetica Neue, Helvetica;
-        font-weight: 900;
-        font-size: 50px;
-        letter-spacing: -0.4rem;
-        @include mobile{
-          font-size: 40px; 
-        }
-        @include s-mobile{
-          font-size: 35px;
-        }
-      }
-      
-      .ted-x {
-        font-weight: 700;
-        font-size: 24px;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri;
-        position: relative;
-        top: 16px;
-        left: 7px;
-        @include mobile{
-          top: 13px;
-          font-size: 20px;
-        }
-        @include s-mobile{
-          top: 10px;
-          font-size: 18px;
-        }
-      }
-      .iiitv {
-        font-family: Helvetica Neue, Helvetica;
-        font-weight: 400;
-        font-size: 47px;
-        position: relative;
-        top: 11px;
-        left: 8px;
-        @include mobile{
-          font-size: 35px;
-        }
-        @include s-mobile{
-          font-size: 32px;
-          top: 9px;
-        }
-      }
-    }
-    
-    .subtitle {
-      font-family: Helvetica Neue, Helvetica;
-      font-weight: 700;
-      font-size: 16px;
-      position: relative;
-      top: -4px;
-      @include mobile{
-        font-size: 15px;
-      }
-      @include s-mobile{
-        font-size: 13px;
-      }
-    }
-  }
-
-  .line {
-    width: 45%;
-    height: 0.01em;
-    background-color: white;
-    margin: 30px 0 10px 0;
-  }
-
-  .about-button {
-    background-color: #c90d00;
-    width: 210px;
-    height: 60px;
-    box-shadow: 0px 0px 10px rgba(228, 228, 228, 0.25);
-    border-radius: 8px;
-
-    .about-button-text {
-      font-weight: 300;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
-      font-size: 26px;
-    }
-  }
-
-  .about-text {
-    font-size: 23px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
+  .sub-heading {
+    color: #e62b1e;
+    font-family: Gill Sans;
+    font-size: 22px;
+    font-style: normal;
     font-weight: 400;
-    @include tablet{
-      font-size: 18px;
-    }
+    line-height: 34px;
+    letter-spacing: 0em;
+  }
+  .content1 {
+    width: 50vw;
+  }
+  .content2 {
+    width: 70vw;
+  }
+  .content1,
+  .content2 {
+    font-family: Gill Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+  }
+  .line {
+    width: 10vw;
+    height: 0;
+    border: 1px solid #ff000b;
   }
 }
