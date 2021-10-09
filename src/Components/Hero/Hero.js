@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="hero-page">
       <div className="Wave">
-        {/* <img src={Wave} alt='wave' className='wave' /> */}
+        <img src={Wave} alt='wave' className='wave' />
       </div>
 
       <h2 className="theme">Theme</h2>
