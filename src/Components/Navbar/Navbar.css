@@ -49,3 +49,9 @@
   border-bottom: 3px solid #e62b1e;
 }
 /*# sourceMappingURL=Navbar.css.map */
+
+@media screen and (max-width: 600px) {
+.navbar{
+    display:none;
+  }
+}
