@@ -36,7 +36,7 @@ const Invite = () => {
       <div className="map-container">
         <h2 className="title-red">Mark your calendars</h2>
         <h1 className="title-shadow">17th - 19th December 2021</h1>
-        <a href="https://www.google.com/calendar">
+        <a href="https://www.google.com/calendar" target="_blank">
           <img src={svg} className="icon" alt="calendar invite"/>
         </a>
         <h2 className="title-iiitv">
