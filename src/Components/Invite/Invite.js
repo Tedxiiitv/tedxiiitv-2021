@@ -37,7 +37,7 @@ const Invite = () => {
         <h2 className="title-red">Mark your calendars</h2>
         <h1 className="title-shadow">17th - 19th December 2021</h1>
         <a href="https://www.google.com/calendar">
-          <img src={svg} className="icon" />
+          <img src={svg} className="icon" alt="calendar invite"/>
         </a>
         <h2 className="title-iiitv">
           IIIT Vadodara
@@ -51,6 +51,7 @@ const Invite = () => {
           loading="lazy"
           className="map-embed"
           frameBorder="100"
+          title="map"
         ></iframe>
         <div className="note-container">
           <p className="note">Note :</p>
