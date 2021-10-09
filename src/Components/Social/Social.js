@@ -1,27 +1,21 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react'
+import 'font-awesome/css/font-awesome.min.css'
 import './Social.css'
-
-import {
-  faYoutube,
-  faTwitter,
-  faInstagram,
-  faFacebook,
-} from '@fortawesome/free-brands-svg-icons'
 
 function Social() {
   return (
-    <div className='social-container'>
-      <a href='https://www.youtube.com/' className=' twitter social'>
-        <FontAwesomeIcon icon={faTwitter} size='30px' />
+    <div className='sociallogos fa fa-lg'>
+      <a className='socialmedialink' href='https://twitter.com/'>
+        <i className='fa fa-twitter icon'></i>
       </a>
-      <a href='https://www.youtube.com/' className='instagram social'>
-        <FontAwesomeIcon icon={faInstagram} size='30px' />
+      <a className='socialmedialink' href='https://www.instagram.com/'>
+        <i className='fa fa-instagram'></i>
       </a>
-      <a href='https://www.youtube.com/' className='youtube social'>
-        <FontAwesomeIcon icon={faYoutube} size='30px' />
+      <a className='socialmedialink' href='https://www.youtube.com/'>
+        <i className='fa fa-youtube-play'></i>
       </a>
-      <a href='https://www.youtube.com/' className='facebook social'>
-        <FontAwesomeIcon icon={faFacebook} size='30px' />
+      <a className='socialmedialink' href='https://www.facebook.com/'>
+        <i className='fa fa-facebook'></i>
       </a>
     </div>
   )

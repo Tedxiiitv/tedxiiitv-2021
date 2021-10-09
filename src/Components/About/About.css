@@ -1,154 +1,85 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-#navbar {
-  padding: 44px 80px 0 0;
+.about-cont1 {
+  height: 83vh;
+  padding: 3vh 0;
 }
 
-.about {
-  padding: 6% 23% 8% 23%;
+.about-cont2 {
+  height: 100vh;
 }
 
-@media (max-width: 700px) {
-  .about {
-    padding: 6% 10% 8% 10%;
-  }
-}
-
-.about .red {
-  color: #e62b1e;
-}
-
-.about .white {
-  color: #ffffff;
-}
-
-.about .parent-logo {
-  padding: 0;
-}
-
-.about .parent-logo .child-flex {
+.about-cont1,
+.about-cont2 {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  width: fit-content;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
 }
 
-.about .parent-logo .child-flex .ted {
-  font-family: Helvetica Neue, Helvetica;
-  font-weight: 900;
-  font-size: 50px;
-  letter-spacing: -0.4rem;
+.about-cont1 .heading1,
+.about-cont2 .heading1 {
+  color: #e62b1e;
+  font-family: Avenir Next;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 55px;
+  letter-spacing: 0em;
 }
 
-@media (max-width: 500px) {
-  .about .parent-logo .child-flex .ted {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 350px) {
-  .about .parent-logo .child-flex .ted {
-    font-size: 35px;
-  }
-}
-
-.about .parent-logo .child-flex .ted-x {
-  font-weight: 700;
-  font-size: 24px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri;
-  position: relative;
-  top: 16px;
-  left: 7px;
-}
-
-@media (max-width: 500px) {
-  .about .parent-logo .child-flex .ted-x {
-    top: 13px;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 350px) {
-  .about .parent-logo .child-flex .ted-x {
-    top: 10px;
-    font-size: 18px;
-  }
-}
-
-.about .parent-logo .child-flex .iiitv {
-  font-family: Helvetica Neue, Helvetica;
+.about-cont1 .sub-heading,
+.about-cont2 .sub-heading {
+  color: #e62b1e;
+  font-family: Gill Sans;
+  font-size: 22px;
+  font-style: normal;
   font-weight: 400;
-  font-size: 47px;
-  position: relative;
-  top: 11px;
-  left: 8px;
+  line-height: 34px;
+  letter-spacing: 0em;
 }
 
-@media (max-width: 500px) {
-  .about .parent-logo .child-flex .iiitv {
-    font-size: 35px;
-  }
+.about-cont1 .content1,
+.about-cont2 .content1 {
+  width: 50vw;
 }
 
-@media (max-width: 350px) {
-  .about .parent-logo .child-flex .iiitv {
-    font-size: 32px;
-    top: 9px;
-  }
+.about-cont1 .content2,
+.about-cont2 .content2 {
+  width: 70vw;
 }
 
-.about .parent-logo .subtitle {
-  font-family: Helvetica Neue, Helvetica;
-  font-weight: 700;
-  font-size: 16px;
-  position: relative;
-  top: -4px;
-}
-
-@media (max-width: 500px) {
-  .about .parent-logo .subtitle {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 350px) {
-  .about .parent-logo .subtitle {
-    font-size: 13px;
-  }
-}
-
-.about .line {
-  width: 45%;
-  height: 0.01em;
-  background-color: white;
-  margin: 30px 0 10px 0;
-}
-
-.about .about-button {
-  background-color: #c90d00;
-  width: 210px;
-  height: 60px;
-  box-shadow: 0px 0px 10px rgba(228, 228, 228, 0.25);
-  border-radius: 8px;
-}
-
-.about .about-button .about-button-text {
-  font-weight: 300;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.about-cont1 .content1,
+.about-cont1 .content2,
+.about-cont2 .content1,
+.about-cont2 .content2 {
+  font-family: Gill Sans;
   font-size: 26px;
-}
-
-.about .about-text {
-  font-size: 23px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
   font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
 }
 
-@media (max-width: 700px) {
-  .about .about-text {
-    font-size: 18px;
-  }
+.about-cont1 .line,
+.about-cont2 .line {
+  width: 10vw;
+  height: 0;
+  border: 1px solid #ff000b;
 }
 /*# sourceMappingURL=About.css.map */

@@ -1,35 +1,51 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 .navbar {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  flex-direction: row-reverse;
-  align-items: center;
-  padding: 28px 6vw 0 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-@media (max-width: 600px) {
-  .navbar {
-    padding: 3vw 4vw 0 0;
-  }
+.navbar .logo-container img {
+  display: block;
+  margin: 20px 0 20px 56px;
+  width: 265px;
 }
 
-.navbar .navbar__link {
-  font-family: "Gill Sans", sans-serif;
-  font-size: 22px;
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: 100;
+.navbar .navitems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55%;
+}
+
+.navbar .navitems .navchild {
+  font-family: Gill Sans;
   font-style: normal;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 36px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-bottom: 3px solid black;
 }
 
-@media (max-width: 600px) {
-  .navbar .navbar__link {
-    font-size: 4vw;
-  }
+.navbar .navitems .navchild:hover {
+  border-bottom: 3px solid #e62b1e;
 }
 /*# sourceMappingURL=Navbar.css.map */

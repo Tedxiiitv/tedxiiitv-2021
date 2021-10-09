@@ -1,10 +1,9 @@
-import './App.css'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Home from './Components/Home/Home'
-import About from './Components/About/About'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import './App.css'
+import Home from './Components/Home/Home'
 import Team from './Components/Team/Team'
+import About from './Components/About/About'
 
 function App() {
   return (
