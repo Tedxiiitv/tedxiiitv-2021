@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
-// import Wave from '../../Assests/Images/Wave.png'
-// import Rectangle from '../../Assests/Images/Rectangle.png'
+import Wave from "../../Assests/Images/Wave.png";
+import Rectangle from "../../Assests/Images/Rectangle.png";
 
 function Hero() {
   return (
@@ -14,7 +14,7 @@ function Hero() {
 
       <h2 className="next-wave">THE NEXT WAVE</h2>
 
-      {/* <img src={Rectangle} alt='Rectangle' className='rectangle' /> */}
+      <img src={Rectangle} alt="Rectangle" className="rectangle" />
     </div>
   );
 }
