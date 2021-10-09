@@ -5,16 +5,16 @@ import './Social.css'
 function Social() {
   return (
     <div className='sociallogos fa fa-lg'>
-      <a className='socialmedialink' href='https://twitter.com/'>
+      <a className='socialmedialink' target='_blank'>
         <i className='fa fa-twitter icon'></i>
       </a>
-      <a className='socialmedialink' href='https://www.instagram.com/'>
+      <a className='socialmedialink' target='_blank'>
         <i className='fa fa-instagram'></i>
       </a>
-      <a className='socialmedialink' href='https://www.youtube.com/'>
+      <a className='socialmedialink' target='_blank'>
         <i className='fa fa-youtube-play'></i>
       </a>
-      <a className='socialmedialink' href='https://www.facebook.com/'>
+      <a className='socialmedialink' target='_blank'>
         <i className='fa fa-facebook'></i>
       </a>
     </div>
