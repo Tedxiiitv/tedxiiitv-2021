@@ -14,7 +14,7 @@ const Team = () => {
   };
 
   return (
-    <div>
+    <div className="team__container">
       <Navbar />
       <div className="team">
         <TeamName
@@ -22,7 +22,11 @@ const Team = () => {
           updateSelectedTeam={updateSelectedTeam}
         />
         <TeamMember selectedTeam={selectedTeam} />
-        <div className="side-border"></div>
+        {/* <div className="side-border"></div> */}
+      </div>
+      <div className="lineDivider">
+        <div className="lineW"></div>
+        <div className="lineR"></div>
       </div>
       <Footer />
     </div>

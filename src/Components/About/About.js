@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./About.scss";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
@@ -25,7 +25,7 @@ function About() {
         <div className="line" />
       </div>
       <div className="about-cont2">
-        <h1 className="heading1">About Tedx</h1>
+        <h1 className="heading1">About Ted</h1>
         <p className="content2">
           TED is a nonprofit organization devoted to Ideas Worth Spreading.
           Started as a four-day conference in California 30 years ago, TED has

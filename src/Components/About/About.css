@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -22,13 +22,13 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: white;
 }
 
@@ -41,6 +41,7 @@
   font-weight: 800;
   line-height: 55px;
   letter-spacing: 0em;
+
 }
 
 .about-cont1 .sub-heading,
@@ -82,4 +83,5 @@
   height: 0;
   border: 1px solid #ff000b;
 }
+
 /*# sourceMappingURL=About.css.map */
