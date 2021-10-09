@@ -1,26 +1,36 @@
 .team_member_list::-webkit-scrollbar {
-    display: none;
-  }
-.team_member_list{
-    overflow:hidden auto;
-    flex: 1.5;
+    /* display: none; */
+    width: 7px;
+    background-color: transparent;
+}
+
+.team_member_list::-webkit-scrollbar-thumb {
+    background-color: #B50008;
+    border-radius: 5px;
+}
+
+.team_member_list {
+    overflow-y: scroll;
+    flex: 0.75;
     align-items: center;
-    display:grid;
+    display: grid;
     grid-gap: 1rem;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
+    height: 500px;
 }
 
-.team_member{
+.team_member {
     text-align: center;
     font-size: 21px;
     font-family: "Gill Sans";
     font-weight: 400;
 }
 
-.team_member img{
+.team_member img {
     border-radius: 100%;
-    border:2px solid #E62B1E;
+    border: 2px solid #E62B1E;
     height: 199px;
-    width:199px;
+    width: 199px;
+    object-fit: cover;
 }
