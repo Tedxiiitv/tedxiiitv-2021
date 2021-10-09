@@ -1,0 +1,58 @@
+@font-face {
+  src: url(../../Assests/Font/airstrike.ttf);
+  font-family: airstrike;
+}
+
+.hero-page {
+  font-family: airstrike;
+  background-color: black;
+  color: white;
+  margin: 0%;
+}
+.wave {
+  width: 100%;
+}
+
+.theme {
+  position: absolute;
+  height: 32px;
+  width: 143px;
+  left: 93px;
+  top: 195px;
+  background: none;
+  font-family: Airstrike;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 32px;
+}
+
+.next-wave {
+  position: absolute;
+
+  width: 638px;
+  height: 61px;
+  left: 432px;
+  top: 399px;
+  background: none;
+  font-family: Airstrike Bold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 61px;
+
+  font-family: Airstrike Bold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 61px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 202px;
+  height: 4px;
+  left: 635px;
+  top: 682px;
+  background: none;
+}
