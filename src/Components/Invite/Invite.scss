@@ -1,0 +1,118 @@
+.invite-wrapper {
+  background-color: #000000;
+
+  .youtube-container {
+    display: flex;
+    padding-bottom: 5rem;
+
+    .invite-item {
+      flex: 50%;
+
+      .youtube-embed {
+        width: 33.913rem;
+        height: 15.926rem;
+      }
+
+      .title {
+        color: #ff000b;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+      }
+
+      .line {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        height: 2px;
+        width: 19.125rem;
+        background-color: #ffffff;
+      }
+
+      .text {
+        padding-right: 3.85rem;
+        padding-left: 0;
+        font-size: 1.625rem;
+        color: #ffffff;
+        font-family: "Gill Sans Light", "Gill Sans", Calibri, sans-serif;
+        font-weight: 300;
+      }
+    }
+
+    .youtube {
+      padding-top: 60px;
+      text-align: center;
+    }
+  }
+
+  .white-line {
+    width: 200px;
+    margin: 10px auto 60px;
+    background-color: #ffffff;
+    height: 2px;
+    border: none;
+    box-shadow: 3px 3px 0px 0px #FF000B;
+  }
+
+  .map-container {
+    text-align: center;
+
+    .title-red {
+      color: #e62b1e;
+      font-size: 2.5rem;
+      font-family: "Airstrike Bold";
+    }
+
+    .title-shadow {
+      color: #ffffff;
+      text-shadow: 0px 4px 4px #ff000b;
+      font-size: 4.375rem;
+      font-family: "Airstrike Bold";
+      padding: 3.75rem 0px;
+    }
+
+    .icon {
+      color: #ffffff;
+      font-size: 2.125rem;
+      cursor: pointer;
+      padding-bottom: 2.5rem;
+    }
+
+    .map-embed {
+      width: 21.5rem;
+      height: 14.625rem;
+    }
+
+    .title-iiitv {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-size: 2.5rem;
+      color: #ffffff;
+    }
+
+    .subtitle {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-size: 1.375rem;
+      color: #ffffff;
+      padding-top: 2.5rem;
+      padding-bottom: 5rem;
+    }
+
+    .note-container {
+      padding-bottom: 5.5rem;
+
+      .note {
+        padding-right: 515px;
+        padding-top: 10rem;
+        padding-bottom: 1.25rem;
+        font-family: "Gill Sans Light", "Gill Sans", Calibri;
+        font-size: 1.688rem;
+        color: #e62b1e;
+      }
+
+      .note-text {
+        font-family: "Gill Sans Light", "Gill Sans", Calibri;
+        font-size: 1.688rem;
+        color: #ffffff;
+      }
+    }
+  }
+}
