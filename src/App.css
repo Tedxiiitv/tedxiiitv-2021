@@ -17,3 +17,13 @@
   font-family: "Gill Sans Light";
   src: url("./Fonts/gill-sans-light.otf");
 }
+
+@font-face {
+  font-family: "Airstrike";
+  src: url("./Fonts/airstrike.ttf");
+}
+
+@font-face {
+  font-family: "Airstrike Bold";
+  src: url("./Fonts/airstrikebold.ttf");
+}
