@@ -11,6 +11,12 @@
   background-color: #000000;
 }
 
+@media (max-width: 600px) {
+  .footer-wrapper {
+    display: none;
+  }
+}
+
 .footer-wrapper .footer-container {
   width: 17.875rem;
 }

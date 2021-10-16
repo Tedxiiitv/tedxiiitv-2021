@@ -1,6 +1,11 @@
 .sociallogos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: none;
   position: absolute;
   width: 30px;
@@ -13,12 +18,24 @@
 
 a.socialmedialink {
   margin: 0 1rem;
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
   transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms;
   display: inline-block;
   padding: 10px;
   background: none;
   color: white;
 }
+
 a.sociallogos:hover {
-  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
+
+@media screen and (max-width: 600px) {
+  .sociallogos {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Social.css.map */

@@ -9,6 +9,7 @@
   color: white;
   margin: 0%;
 }
+
 .wave {
   width: 100%;
 }
@@ -29,7 +30,6 @@
 
 .next-wave {
   position: absolute;
-
   width: 638px;
   height: 61px;
   left: 432px;
@@ -40,7 +40,6 @@
   font-weight: normal;
   font-size: 70px;
   line-height: 61px;
-
   font-family: Airstrike Bold;
   font-style: normal;
   font-weight: normal;
@@ -56,3 +55,4 @@
   top: 682px;
   background: none;
 }
+/*# sourceMappingURL=Hero.css.map */

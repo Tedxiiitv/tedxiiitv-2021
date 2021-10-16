@@ -1,4 +1,15 @@
+$mobile: 600px;
+
+@mixin mobile {
+  @media (max-width:#{$mobile}) {
+    @content;
+  }
+}
+
 .footer-wrapper {
+  @include mobile {
+    display: none;
+  }
   border-top: 1px ridge rgb(100, 100, 100);
   padding: 4em;
   padding-top: 95px;

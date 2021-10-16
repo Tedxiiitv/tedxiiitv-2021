@@ -9,6 +9,16 @@
   padding-bottom: 5rem;
 }
 
+@media (max-width: 600px) {
+  .invite-wrapper .youtube-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
 .invite-wrapper .youtube-container .invite-item {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
@@ -20,11 +30,25 @@
   height: 15.926rem;
 }
 
+@media (max-width: 600px) {
+  .invite-wrapper .youtube-container .invite-item .youtube-embed {
+    width: 234.8px;
+    height: 113.89px;
+    margin-bottom: 10px;
+  }
+}
+
 .invite-wrapper .youtube-container .invite-item .title {
   color: #ff000b;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-weight: 600;
   font-size: 2.5rem;
+}
+
+@media (max-width: 600px) {
+  .invite-wrapper .youtube-container .invite-item .title {
+    font-size: 16px;
+  }
 }
 
 .invite-wrapper .youtube-container .invite-item .line {
@@ -33,6 +57,13 @@
   height: 2px;
   width: 19.125rem;
   background-color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .invite-wrapper .youtube-container .invite-item .line {
+    width: 130px;
+    margin: 12px auto 10px auto;
+  }
 }
 
 .invite-wrapper .youtube-container .invite-item .text {
@@ -44,6 +75,15 @@
   font-weight: 300;
 }
 
+@media (max-width: 600px) {
+  .invite-wrapper .youtube-container .invite-item .text {
+    font-size: 16px;
+    width: 75%;
+    margin: auto;
+    padding: 0;
+  }
+}
+
 .invite-wrapper .youtube-container .youtube {
   padding-top: 60px;
   text-align: center;
@@ -51,16 +91,28 @@
 
 .invite-wrapper .white-line {
   width: 200px;
-  margin: 10px auto 60px;
+  margin: 15px auto 60px;
   background-color: #ffffff;
   height: 2px;
   border: none;
-  -webkit-box-shadow: 3px 3px 0px 0px #FF000B;
-          box-shadow: 3px 3px 0px 0px #FF000B;
+  -webkit-box-shadow: 3px 3px 0px 0px #ff000b;
+          box-shadow: 3px 3px 0px 0px #ff000b;
+}
+
+@media (max-width: 600px) {
+  .invite-wrapper .white-line {
+    display: none;
+  }
 }
 
 .invite-wrapper .map-container {
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .invite-wrapper .map-container {
+    display: none;
+  }
 }
 
 .invite-wrapper .map-container .title-red {

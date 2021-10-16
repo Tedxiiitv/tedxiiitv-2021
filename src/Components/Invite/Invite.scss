@@ -1,8 +1,20 @@
+$mobile: 600px;
+
+@mixin mobile {
+  @media (max-width:#{$mobile}) {
+    @content;
+  }
+}
+
 .invite-wrapper {
   background-color: #000000;
 
   .youtube-container {
     display: flex;
+    @include mobile {
+      flex-direction: column;
+      text-align: center;
+    }
     padding-bottom: 5rem;
 
     .invite-item {
@@ -11,6 +23,11 @@
       .youtube-embed {
         width: 33.913rem;
         height: 15.926rem;
+        @include mobile {
+          width: 234.8px;
+          height: 113.89px;
+          margin-bottom: 10px;
+        }
       }
 
       .title {
@@ -18,6 +35,9 @@
         font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
         font-weight: 600;
         font-size: 2.5rem;
+        @include mobile {
+          font-size: 16px;
+        }
       }
 
       .line {
@@ -26,6 +46,11 @@
         height: 2px;
         width: 19.125rem;
         background-color: #ffffff;
+        @include mobile {
+          width: 130px;
+          margin: 12px auto 10px auto;
+
+        }
       }
 
       .text {
@@ -35,6 +60,12 @@
         color: #ffffff;
         font-family: "Gill Sans Light", "Gill Sans", Calibri, sans-serif;
         font-weight: 300;
+        @include mobile {
+          font-size: 16px;
+          width: 75%;
+          margin: auto;
+          padding: 0;
+        }
       }
     }
 
@@ -46,15 +77,21 @@
 
   .white-line {
     width: 200px;
-    margin: 10px auto 60px;
+    margin: 15px auto 60px;
     background-color: #ffffff;
     height: 2px;
     border: none;
-    box-shadow: 3px 3px 0px 0px #FF000B;
+    box-shadow: 3px 3px 0px 0px #ff000b;
+    @include mobile {
+      display: none;
+    }
   }
 
   .map-container {
     text-align: center;
+    @include mobile {
+      display: none;
+    }
 
     .title-red {
       color: #e62b1e;

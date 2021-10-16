@@ -41,17 +41,17 @@
   font-size: 28px;
   line-height: 36px;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   border-bottom: 3px solid black;
 }
 
 .navbar .navitems .navchild:hover {
   border-bottom: 3px solid #e62b1e;
 }
-/*# sourceMappingURL=Navbar.css.map */
 
 @media screen and (max-width: 600px) {
-.navbar{
-    display:none;
+  .navbar {
+    display: none;
   }
 }
+/*# sourceMappingURL=Navbar.css.map */
