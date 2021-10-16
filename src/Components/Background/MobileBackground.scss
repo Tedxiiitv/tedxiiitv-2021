@@ -1,17 +1,12 @@
-@media screen and (min-width:1080px) {
-  .mobile-background{
-    display: none;
-  }
-}
 .mobile-background {
   text-align: left;
   display: flex;
   align-items: center;
   justify-content: center;
   background: url("../../Assests/images/mobile-bg.png") no-repeat center
-    center/cover;
+  center/cover;
   background-color: black;
-  height: 40vh;
+  height: 80vh;
   width: 100vw;
   top: 0;
   left: 0;
@@ -24,6 +19,11 @@
   line-height: 1.625rem;
   letter-spacing: 0em;
 }
+@media screen and (min-width:1080px) {
+  .mobile-background{
+    display: none;
+  }
+}
 @media screen and (max-width: 800px) {
   .mobile-background {
     font-size: 3.5rem;
@@ -31,11 +31,13 @@
 }
 @media screen and (max-width: 600px) {
   .mobile-background {
+    height: 60vh;
     font-size: 3rem;
   }
 }
 @media screen and (max-width: 450px) {
   .mobile-background {
+    height: 40vh;
     font-size: 2.5rem;
   }
 }
