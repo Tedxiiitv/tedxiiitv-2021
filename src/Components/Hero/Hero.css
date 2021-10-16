@@ -46,16 +46,29 @@
 }
 
 .rectangle {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 5.5% auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5% auto 0 auto;
   background: none;
+}
+
+.rectangle img {
+  width: 13vw;
 }
 
 @media screen and (max-width: 1080px) {
   .hero-page {
     display: none;
+  }
+  .rectangle img {
+    width: 25vw;
   }
 }
 /*# sourceMappingURL=Hero.css.map */

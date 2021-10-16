@@ -40,13 +40,22 @@
 }
 
 .rectangle {
-  width: fit-content;
-  margin: 5.5% auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto 0 auto;
   background: none;
+}
+
+.rectangle img {
+  width: 13vw;
 }
 
 @media screen and (max-width: 1080px) {
   .hero-page {
     display: none;
+  }
+  .rectangle img {
+    width: 25vw;
   }
 }

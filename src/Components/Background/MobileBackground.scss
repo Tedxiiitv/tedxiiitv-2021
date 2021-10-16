@@ -1,6 +1,10 @@
+.mobile-background-container{
+  background-color: black;
+}
 .mobile-background {
   text-align: left;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: url("../../Assests/images/mobile-bg.png") no-repeat center
@@ -20,7 +24,7 @@
   letter-spacing: 0em;
 }
 @media screen and (min-width:1080px) {
-  .mobile-background{
+  .mobile-background-container{
     display: none;
   }
 }
