@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import "font-awesome/css/font-awesome.min.css";
 import {useState} from 'react';
-import logo from "../../../Assests/Images/logo.png";
+import logo from "../../../Assests/images/logo.png";
 import { NavLink } from "react-router-dom";
 
 const BurgerMenu = ()=>{
