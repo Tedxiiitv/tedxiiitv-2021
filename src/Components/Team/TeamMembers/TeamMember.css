@@ -34,3 +34,12 @@
     width: 199px;
     object-fit: cover;
 }
+@media screen and (max-width: 600px) {
+    .team_member_list{
+        height: 70vh;
+    }
+    .team_member img {
+        height: 100px;
+        width: 100px;
+    }
+}

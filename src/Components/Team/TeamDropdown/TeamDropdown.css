@@ -1,0 +1,37 @@
+.team-name-dropdown{
+    font-family: "Gill Sans";
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.team-name-dropdown .seleted-team{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.dropdown-item li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+.team_name_in_dropdown{
+    padding: 5px 0;
+    border-bottom: .5px solid #161414;
+}
+.dropdown-item{
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    opacity: 0;
+    transition: all 1s linear;
+    overflow: hidden;
+}
+.show-dropdown{
+    opacity: 1;
+    height: auto;
+    transition: all 1s linear;
+}
+.team-name-dropdown .seleted-team img{
+    width: 10px;
+    height: 5px;
+    margin: 0 10px;
+}

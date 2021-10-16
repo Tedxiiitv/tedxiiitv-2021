@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import "font-awesome/css/font-awesome.min.css";
 import {useState} from 'react';
-import logo from "../../../Assests/images/logo.png";
+import logo from "../../../Assests/Images/MobileLogo.png";
 import { NavLink } from "react-router-dom";
 
 const BurgerMenu = ()=>{
@@ -39,7 +39,7 @@ const BurgerMenu = ()=>{
                     <NavLink to="/" target="_blank"><i className="fa fa-twitter icon"></i></NavLink>
                     <NavLink to="/" target="_blank"><i className="fa fa-instagram"></i></NavLink>
                     <NavLink to="/" target="_blank"><i className="fa fa-youtube-play"></i></NavLink>
-                    <NavLink to="/" target="_blank"><i className="fa fa-facebook"></i></NavLink>
+                    <NavLink to="/" target="_blank"><i className="fa fa-linkedin"></i></NavLink>
                 </li>
             </ul>
         </div>
