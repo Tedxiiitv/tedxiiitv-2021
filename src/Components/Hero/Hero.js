@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import Wave from "../../Assests/Images/Wave.png";
+// import Wave from "../../Assests/Images/Wave.png";
 import Rectangle from "../../Assests/Images/Rectangle.png";
 
 function Hero() {
