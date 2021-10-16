@@ -48,4 +48,10 @@
 .navbar .navitems .navchild:hover {
   border-bottom: 3px solid #e62b1e;
 }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Navbar.css.map */

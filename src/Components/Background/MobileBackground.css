@@ -1,0 +1,57 @@
+@media screen and (min-width: 1080px) {
+  .mobile-background {
+    display: none;
+  }
+}
+
+.mobile-background {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../../Assests/images/mobile-bg.png") no-repeat center center/cover;
+  background-color: black;
+  height: 40vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: white;
+  font-family: Airstrike Bold;
+  font-size: 4.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+}
+
+@media screen and (max-width: 800px) {
+  .mobile-background {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-background {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mobile-background {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mobile-background {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=MobileBackground.css.map */

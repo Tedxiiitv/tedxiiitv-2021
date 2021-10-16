@@ -1,5 +1,5 @@
-import "./MobileHeading.css";
-const MobileHeading = () => {
+import "./MobileBackground.css";
+const MobileBackground = () => {
     return(
         <div className="mobile-background">
             THE NEXT WAVE
@@ -7,4 +7,4 @@ const MobileHeading = () => {
     );
 }
 
-export default MobileHeading;
+export default MobileBackground;

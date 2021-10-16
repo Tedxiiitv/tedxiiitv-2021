@@ -8,10 +8,8 @@
           flex-direction: column;
   background: none;
   position: absolute;
-  width: 30px;
-  height: 177.6px;
-  left: 1330px;
-  top: 317px;
+  right: 3%;
+  top: 45%;
   color: white;
   cursor: pointer;
 }
@@ -31,5 +29,11 @@ a.socialmedialink {
 a.sociallogos:hover {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
+}
+
+@media screen and (max-width: 1080px) {
+  .sociallogos {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Social.css.map */
