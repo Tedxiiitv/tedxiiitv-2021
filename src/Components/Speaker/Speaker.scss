@@ -1,0 +1,78 @@
+.speakers {
+    min-height: 86vh;
+    background-color: black;
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        background-color: black;
+        padding-top: 20px;
+        .head {
+            color: #E62B1E;
+            // font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            font-style: italic;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        .cardContainer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .details {
+            width: 80%;
+            // padding-top: 40px;
+            padding: 30px 0;
+            margin: 0 auto;
+            .back {
+                font-size: 20px;
+                color: #E62B1E;
+                text-transform: uppercase;
+                text-decoration: underline;
+                margin-bottom: 20px;
+                cursor: pointer;
+            }
+            .detailsContainer {
+                box-sizing: border-box;
+                padding: 40px;
+                box-shadow: 0px 0px 8px 3px rgba(162, 162, 162, 0.25);
+                // min-height: 600px;
+                width: 100%;
+                display: flex;
+                img {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                }
+                .rightCard {
+                    margin-left: 30px;
+                    p {
+                        color: white;
+                        font-size: 50px;
+                        font-weight: 700;
+                        font-style: italic;
+                    }
+                    div {
+                        width: 147px;
+                        height: 2px;
+                        background-color: #E62B1E;
+                    }
+                    .university {
+                        font-size: 20px;
+                        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        margin-top: 20px;
+                    }
+                    .bio {
+                        font-size: 20px;
+                        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        margin-top: 20px;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
