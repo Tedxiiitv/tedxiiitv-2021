@@ -4,10 +4,10 @@
     /* align-items: center; */
     flex-direction: column;
     background-color: black;
+    color: #ffffff;
 }
 
 .team {
-    color: #ffffff;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -47,4 +47,15 @@
     height: 5px;
     background-color: #B50008;
     margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .desktop_team_page{
+        display:none;
+    }
+}
+@media screen and (min-width: 600px) {
+    .mobile_team_page{
+        display:none;
+    }
 }
