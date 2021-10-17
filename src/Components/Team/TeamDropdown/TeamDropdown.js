@@ -19,6 +19,8 @@ const TeamDropdown = (props)=>{
                     <span className="team_name_in_dropdown">{teamName}</span>
                 </li>
             );
+        }else{
+            return null;
         }
         
     })
