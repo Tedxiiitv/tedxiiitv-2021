@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import "font-awesome/css/font-awesome.min.css";
 import {useState} from 'react';
-import logo from "../../../Assests/images/logo.png";
+import logo from "../../../Assests/images/MobileLogo.png";
 import { NavLink } from "react-router-dom";
 
 const BurgerMenu = ()=>{
@@ -27,7 +27,7 @@ const BurgerMenu = ()=>{
                     <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/spekers">Speaker</NavLink>
+                    <NavLink to="/speakers">Speaker</NavLink>
                 </li>
                 <li>
                     <NavLink to="/talks">Talks</NavLink>
@@ -36,10 +36,10 @@ const BurgerMenu = ()=>{
                     <NavLink to="/team">Team</NavLink>
                 </li>
                 <li className="burger-menu-social-link">
-                    <NavLink to="/" target="_blank"><i className="fa fa-twitter icon"></i></NavLink>
-                    <NavLink to="/" target="_blank"><i className="fa fa-instagram"></i></NavLink>
-                    <NavLink to="/" target="_blank"><i className="fa fa-youtube-play"></i></NavLink>
-                    <NavLink to="/" target="_blank"><i className="fa fa-facebook"></i></NavLink>
+                    <a rel="noreferrer" href="https://twitter.com/tedxiiitv" target="_blank"><i className="fa fa-twitter icon"></i></a>
+                    <a rel="noreferrer" href="https://www.instagram.com/tedxiiitv" target="_blank"><i className="fa fa-instagram"></i></a>
+                    <a rel="noreferrer" href="https://www.youtube.com/channel/UC4mwsjxwalruq9tga_3a92g" target="_blank"><i className="fa fa-youtube-play"></i></a>
+                    <a rel="noreferrer" href="/" target="_blank"><i className="fa fa-linkedin"></i></a>
                 </li>
             </ul>
         </div>

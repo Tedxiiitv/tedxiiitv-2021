@@ -5,6 +5,7 @@ import Home from "./Components/Home/Home";
 import Team from "./Components/Team/Team";
 import About from "./Components/About/About";
 import Speaker from "./Components//Speaker/Speaker";
+import Talk from "./Components/Talk/Talk";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/team" component={Team} />
         <Route exact path="/speakers" component={Speaker} />
+        <Route exact path="/talks" component={Talk} />
       </Router>
     </React.Fragment>
   );

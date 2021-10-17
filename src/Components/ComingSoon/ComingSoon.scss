@@ -1,108 +1,35 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-$s-mobile:350px;
-@mixin s-mobile{
-    @media (max-width:#{$s-mobile}){
-        @content
-    }
-}
-$mobile:500px;
-@mixin mobile{
-    @media (max-width:#{$mobile}){
-        @content
-    }
-}
-.red {
-  color: #e62b1e;
-}
 
-.white {
-  color: #ffffff;
-}
-
-#parent-logo{
-  padding: 7% 0 0 6%;
-  @include mobile{
-    padding-left: 10%;
+$mobile: 600px;
+@mixin mobile {
+  @media (max-width:#{$mobile}) {
+    @content;
   }
-  
-  #child-flex {
-    display: flex;
-    width: fit-content;
+}
 
-    .ted {
-      font-family: Helvetica Neue, Helvetica;
-      font-weight: 900;
-      font-size: 85px;
-      letter-spacing: -0.4rem;
-      @include mobile{
-        font-size: 65px;
-      }
-      @include s-mobile{
-        font-size: 50px;
-      }
-    }
-    
-    .ted-x {
-      font-weight: 700;
-      font-size: 30px;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri;
-      position: relative;
-      top: 26px;
-      @include mobile{
-        font-size: 25px;
-        top: 20px;
-        left: 5px;
-      }
-      @include s-mobile{
-        font-size: 20px;
-        top: 16px;
-      }
-    }
-  }
-  .iiitv {
-    font-family: Helvetica Neue, Helvetica;
+.parent-cs {
+  .coming-soon {
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    background-image: url("../../Assests/images/bulb-bg.png");
+    background-size: cover;
+    font-family: La Belle Aurore;
+    font-size: 6vw;
     font-weight: 400;
-    font-size: 75px;
-    position: relative;
-    top: -20px;
-    @include mobile{
-      font-size: 50px;
-    }
-    @include s-mobile{
-      font-size: 40px;
-      top: -15px;
-    }
-  }
-  
-  .subtitle {
-    font-family: Helvetica Neue, Helvetica;
-    font-weight: 700;
-    font-size: 20px;
-    position: relative;
-    top: -20px;
-    @include mobile{
-      font-size: 15px;
-    }
-    @include s-mobile{
-      font-size: 12px;
-    }
-  }
-}
-.coming-soon {
-  font-family: La Belle Aurore;
-  font-size: 50px;
-  font-weight: 400;
-  padding: 109px 0 130px 6%;
-  @include mobile{
-    padding: 10% 0 10% 0;
     text-align: center;
-    font-size: 40px;
+    padding-top: 25vh;
+    @include mobile {
+      padding: 10% 0;
+      font-size: 40px;
+      background-image: none;
+    }
   }
-  @include s-mobile{
-    font-size: 30px;
+  .white {
+    color: #ffffff;
   }
 }

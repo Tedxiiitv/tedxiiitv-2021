@@ -1,19 +1,9 @@
 import React from "react";
-import "./ComingSoon.css";
+import "./ComingSoon.scss";
 
 function ComingSoon() {
   return (
-    <div>
-      <div id="parent-logo">
-      <div id="child-flex">
-        <div className="ted red">TED</div>
-        <div className="ted-x red">X</div>
-      </div>
-      <div className="iiitv white">IIITVadodara</div>
-      <div className="subtitle white">
-        <span className="red">x</span> = independently organized TED event
-      </div>
-      </div>
+    <div className="parent-cs">
       <div className="coming-soon white">Coming Soon</div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Invite.css";
+import "./Invite.scss";
 import svg from "../../Assests/calendar.svg";
 
 const Invite = () => {
