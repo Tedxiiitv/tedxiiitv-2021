@@ -27,7 +27,7 @@ const BurgerMenu = ()=>{
                     <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/spekers">Speaker</NavLink>
+                    <NavLink to="/speakers">Speaker</NavLink>
                 </li>
                 <li>
                     <NavLink to="/talks">Talks</NavLink>
