@@ -24,7 +24,6 @@ $mobile: 600px;
     text-align: center;
     padding-top: 25vh;
     @include mobile {
-      padding: 10% 0;
       font-size: 40px;
       background-image: none;
     }
