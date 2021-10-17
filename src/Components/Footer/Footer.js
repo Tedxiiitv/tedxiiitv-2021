@@ -41,8 +41,8 @@ const Footer = () => {
             <a className="social-link" href="https://www.youtube.com/channel/UC4mwsjxwalruq9tga_3a92g" target="_blank" rel="noreferrer">
               <i className="fa fa-youtube-play"></i>
             </a>
-            <a className="social-link" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-              <i className="fa fa-facebook"></i>
+            <a className="social-link" href="https://www.linkedin.com/company/tedxiiitv" target="_blank" rel="noreferrer">
+              <i className="fa fa-linkedin"></i>
             </a>
           </div>
         </div>
