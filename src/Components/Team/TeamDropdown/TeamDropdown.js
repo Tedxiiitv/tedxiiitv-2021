@@ -1,6 +1,6 @@
 import './TeamDropdown.css';
 import {teamData} from  '../utils/TeamData'
-import down from '../../../Assests/Images/down.png'
+import down from '../../../Assests/images/down.png'
 import {useState} from 'react'
 
 const TeamDropdown = (props)=>{
