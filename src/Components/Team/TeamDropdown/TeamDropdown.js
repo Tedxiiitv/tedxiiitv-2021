@@ -26,13 +26,14 @@ const TeamDropdown = (props)=>{
     })
     return (
         <div className="team-name-dropdown">
-            <p 
+            <p className="team-heading">Team</p>
+            <span 
                 className="seleted-team" 
                 onClick={()=>toggleDropDown(!showDropDown)}
             >
                 {selectedTeam} 
                 <img src={down} alt="dropdown" />
-            </p>
+            </span>
             <ul className={(showDropDown?"show-dropdown":"") + " dropdown-item"}>
                 {teamList}
             </ul>

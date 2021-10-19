@@ -3,7 +3,7 @@
     font-weight: 600;
     font-size: 15px;
     padding-left: 20px;
-    cursor: pointer;
+    margin-bottom: 30px;
 }
 .team-name-dropdown .seleted-team{
     font-size: 20px;
@@ -35,4 +35,11 @@
     width: 10px;
     height: 5px;
     margin: 0 10px;
+}
+.team-name-dropdown .team-heading{
+    color: #E62B1E;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
 }
