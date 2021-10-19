@@ -8,7 +8,7 @@ const Invite = () => {
       <div className="youtube-container">
         <div className="invite-item youtube">
           <iframe
-            src="https://www.youtube.com/embed/oJwMiU3RJmA"
+            src="https://www.youtube.com/embed/0n4dKcCw64Y"
             allow="autoplay; encrypted-media"
             allowfullscreen
             title="video"
