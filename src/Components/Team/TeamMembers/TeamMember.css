@@ -42,4 +42,16 @@
         height: 100px;
         width: 100px;
     }
+    .team_member .team_member_name{
+        font-size: 22px;
+    }
+    .team_member .team_member_position{
+        font-size: 18px;
+    }
 }
+.team_member_name{
+    font-size: 26px;
+}
+/* .team_member_position{
+    font-size: 26px;
+} */

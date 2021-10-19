@@ -7,9 +7,9 @@ const TeamMember = (props) => {
   const memberCard = curTeam.map((member) => {
     return (
       <div key={`teamMember ${member.id}`} className="team_member">
-        <img alt={member.name} src={member.img} />
-        <p>{member.name}</p>
-        <p>{member.role}</p>
+        <img alt={member.name} src={member.photo} />
+        <p className="team_member_name">{member.name}</p>
+        <p className="team_member_position">{member.position}</p>
       </div>
     );
   });
