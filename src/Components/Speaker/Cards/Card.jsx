@@ -1,14 +1,13 @@
 import React from "react";
 import "./Card.scss";
-import dummyImg from "../../../Assests/images/dummyImg.png";
 
-function Card({ name, desc }) {
+function Card({ name, subtitle, imgSrc }) {
   return (
     <div className="card">
-      <img src={dummyImg} alt="dp" />
+      <img src={imgSrc} alt="dp" />
       <p>{name}</p>
-      <div></div>
-      <span>{desc}</span>
+      <div className="line"></div>
+      <div>{subtitle}</div>
     </div>
   );
 }
