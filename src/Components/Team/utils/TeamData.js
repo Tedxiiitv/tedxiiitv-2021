@@ -1,132 +1,112 @@
 export const teamData = {
-    "Speakers":[
+    "Core":[
         {
             id:1,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Raghvi Saxena",
+            position:"Lead",
+            photo:"https://avatars.githubusercontent.com/u/54863450?v=4"
         },
         {
             id:2,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
-        },
-        {
-            id:3,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
-        },
-        {
-            id:4,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Anavya Upadhyay",
+            position:"Co-Lead",
+            photo:"https://avatars.githubusercontent.com/u/56159215?v=4"
         }
     ],
-    "Theme Curation":[
+    "Core Support":[
         {
             id:5,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Jinal Patel",
+            position:"Lead",
+            photo:"https://avatars.githubusercontent.com/u/56222799?v=4"
         },
         {
             id:6,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Tirth Joshi",
+            position:"Co-Lead",
+            photo:"https://avatars.githubusercontent.com/u/78159268?v=4"
         },
         {
             id:7,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Mugdha Sharma",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/85048574?v=4"
         },
         {
             id:8,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Om Nalinde",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/92785527?v=4"
+        },
+        {
+            id:3,
+            name:"Vansh Goel",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/85311828?v=4"
         }
     ],
-    "Organisation":[
+    "Public Relations":[
         {
             id:9,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Himanshu Sanecha",
+            position:"Lead",
+            photo:"https://avatars.githubusercontent.com/u/52252631?v=4"
         },
         {
             id:10,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Chitranshi Shrivastava",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/81587660?v=4"
         },
         {
             id:11,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
-        }
+            name:"Kalash Singh",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/75837375?v=4"
+        },
+        {
+            id:4,
+            name:"Rashiya Dhruv",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/81905828?v=4"
+        },
     ],
-    "Design":[
+    "Design & Development":[
         {
             id:12,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Prathmesh Khandelwal",
+            position:"Development Lead",
+            photo:"https://avatars.githubusercontent.com/u/56167998?v=4"
         },
         {
             id:13,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Divyam Solanki",
+            position:"Design Lead",
+            photo:"https://avatars.githubusercontent.com/u/53675889?v=4"
         },
         {
             id:14,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
-        }
-    ],
-    "Development":[
+            name:"Keshav Agarwal",
+            position:"Development Co-Lead",
+            photo:"https://avatars.githubusercontent.com/u/56120769?v=4"
+        },
         {
             id:15,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Madhur Gupta",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/76112446?v=4"
         },
         {
             id:16,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
+            name:"Kalash Shah",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/81062983?v=4"
         },
         {
             id:17,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-            role:"Member"
-        },
-        {
-            id:18,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            role:"Member"
-        },
-        {
-            id:19,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            role:"Member"
-        },
-        {
-            id:20,
-            name:"Lorem Ipsum",
-            img:"https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            role:"Member"
+            name:"Riya Parikh",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/73838328?v=4"
         }
     ]
 }
