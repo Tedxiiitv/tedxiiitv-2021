@@ -9,7 +9,7 @@ export const teamData = {
         {
             id:2,
             name:"Anavya Upadhyay",
-            position:"Co-Lead",
+            position:"Lead",
             photo:"https://avatars.githubusercontent.com/u/56159215?v=4"
         }
     ],
@@ -70,6 +70,13 @@ export const teamData = {
             position:"Member",
             photo:"https://avatars.githubusercontent.com/u/81905828?v=4"
         },
+        {
+            id:18,
+            name:"Janki Kotadiya",
+            position:"Member",
+            photo:"https://avatars.githubusercontent.com/u/91967843?v=4"
+        },
+        
     ],
     "Design & Development":[
         {
