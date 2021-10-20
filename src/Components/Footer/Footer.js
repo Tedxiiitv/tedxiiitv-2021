@@ -60,14 +60,14 @@ const Footer = () => {
         <h3 className="title">Speakers</h3>
         <hr className="line" />
         <div className="link-container">
-          <Link className="link" to="/">
-            Lorem Ipsum
+          <Link className="link" to="/speakers">
+            Gauri Bakshi
           </Link>
-          <Link className="link" to="/">
-            Consectetur
+          <Link className="link" to="/speakers">
+            Pratik Thakker
           </Link>
-          <Link className="link" to="/">
-            Tempor incididunt
+          <Link className="link" to="/speakers">
+            Barat Ali Batoor
           </Link>
           <Link className="link red" to="/speakers">
             ...More
