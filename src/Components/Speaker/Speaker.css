@@ -1,0 +1,94 @@
+.speakers {
+  min-height: 86vh;
+  background-color: black;
+}
+
+.speakers .container {
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  padding-top: 20px;
+}
+
+.speakers .container .head {
+  color: #E62B1E;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.speakers .container .cardContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.speakers .container .details {
+  width: 80%;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.speakers .container .details .back {
+  font-size: 20px;
+  color: #E62B1E;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.speakers .container .details .detailsContainer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px;
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(162, 162, 162, 0.25);
+          box-shadow: 0px 0px 8px 3px rgba(162, 162, 162, 0.25);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.speakers .container .details .detailsContainer img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.speakers .container .details .detailsContainer .rightCard {
+  margin-left: 30px;
+}
+
+.speakers .container .details .detailsContainer .rightCard p {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.speakers .container .details .detailsContainer .rightCard div {
+  width: 147px;
+  height: 2px;
+  background-color: #E62B1E;
+}
+
+.speakers .container .details .detailsContainer .rightCard .university {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.speakers .container .details .detailsContainer .rightCard .bio {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 20px;
+  line-height: 23px;
+}
+/*# sourceMappingURL=Speaker.css.map */

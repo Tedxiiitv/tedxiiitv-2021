@@ -1,0 +1,74 @@
+@font-face {
+  src: url(../../Assests/Font/airstrike.ttf);
+  font-family: airstrike;
+}
+
+.hero-page {
+  background: url("../../Assests/images/Wave.png") no-repeat center center/cover;
+  font-family: airstrike;
+  background-color: black;
+  color: white;
+  margin: 0%;
+  height: 90vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.theme {
+  padding: 2% 56px;
+  background: none;
+  font-family: Airstrike;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.3125rem;
+  line-height: 2rem;
+}
+
+.next-wave {
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+  font-family: Airstrike Bold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.375rem;
+  line-height: 3.8125rem;
+}
+
+.rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5% auto 0 auto;
+  background: none;
+}
+
+.rectangle img {
+  width: 13vw;
+}
+
+@media screen and (max-width: 1080px) {
+  .hero-page {
+    display: none;
+  }
+  .rectangle img {
+    width: 25vw;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */

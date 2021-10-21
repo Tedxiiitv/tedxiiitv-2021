@@ -1,0 +1,124 @@
+.invite-wrapper {
+  background-color: #000000;
+}
+
+.invite-wrapper .youtube-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5rem;
+}
+
+.invite-wrapper .youtube-container .invite-item {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.invite-wrapper .youtube-container .invite-item .youtube-embed {
+  width: 33.913rem;
+  height: 15.926rem;
+}
+
+.invite-wrapper .youtube-container .invite-item .title {
+  color: #ff000b;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.invite-wrapper .youtube-container .invite-item .line {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 2px;
+  width: 19.125rem;
+  background-color: #ffffff;
+}
+
+.invite-wrapper .youtube-container .invite-item .text {
+  padding-right: 3.85rem;
+  padding-left: 0;
+  font-size: 1.625rem;
+  color: #ffffff;
+  font-family: "Gill Sans Light", "Gill Sans", Calibri, sans-serif;
+  font-weight: 300;
+}
+
+.invite-wrapper .youtube-container .youtube {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.invite-wrapper .white-line {
+  width: 200px;
+  margin: 10px auto 60px;
+  background-color: #ffffff;
+  height: 2px;
+  border: none;
+  -webkit-box-shadow: 3px 3px 0px 0px #FF000B;
+          box-shadow: 3px 3px 0px 0px #FF000B;
+}
+
+.invite-wrapper .map-container {
+  text-align: center;
+}
+
+.invite-wrapper .map-container .title-red {
+  color: #e62b1e;
+  font-size: 2.5rem;
+  font-family: "Airstrike Bold";
+}
+
+.invite-wrapper .map-container .title-shadow {
+  color: #ffffff;
+  text-shadow: 0px 4px 4px #ff000b;
+  font-size: 4.375rem;
+  font-family: "Airstrike Bold";
+  padding: 3.75rem 0px;
+}
+
+.invite-wrapper .map-container .icon {
+  color: #ffffff;
+  font-size: 2.125rem;
+  cursor: pointer;
+  padding-bottom: 2.5rem;
+}
+
+.invite-wrapper .map-container .map-embed {
+  width: 21.5rem;
+  height: 14.625rem;
+}
+
+.invite-wrapper .map-container .title-iiitv {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.invite-wrapper .map-container .subtitle {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 1.375rem;
+  color: #ffffff;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.invite-wrapper .map-container .note-container {
+  padding-bottom: 5.5rem;
+}
+
+.invite-wrapper .map-container .note-container .note {
+  padding-right: 515px;
+  padding-top: 10rem;
+  padding-bottom: 1.25rem;
+  font-family: "Gill Sans Light", "Gill Sans", Calibri;
+  font-size: 1.688rem;
+  color: #e62b1e;
+}
+
+.invite-wrapper .map-container .note-container .note-text {
+  font-family: "Gill Sans Light", "Gill Sans", Calibri;
+  font-size: 1.688rem;
+  color: #ffffff;
+}
+/*# sourceMappingURL=Invite.css.map */

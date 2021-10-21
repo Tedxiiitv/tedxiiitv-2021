@@ -1,0 +1,13 @@
+.team_name {
+    font-size: 25px;
+    padding: 10px 0;
+    cursor: pointer;
+    font-family: "Gill Sans";
+}
+
+.team_name_list {}
+
+.team_name_list .active {
+    color: #E62B1E;
+    font-size: 27px;
+}

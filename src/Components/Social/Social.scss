@@ -1,0 +1,28 @@
+.sociallogos {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  position: absolute;
+  right: 3%;
+  top: 45%;
+  color: white;
+  cursor: pointer;
+}
+
+a.socialmedialink {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  padding: 10px;
+  background: none;
+  color: white;
+}
+a.sociallogos:hover {
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width:1080px) {
+  .sociallogos{
+    display: none;
+  }
+}
