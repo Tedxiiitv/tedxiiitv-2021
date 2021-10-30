@@ -42,7 +42,7 @@ const Invite = () => {
         <h2 className="title-iiitv">
           IIIT Vadodara
           <br />
-          Gandhinagar, GJ, India
+          Gandhinagar, Gujrat, India
         </h2>
         <p className="subtitle">*This event is invite only</p>
         <iframe
