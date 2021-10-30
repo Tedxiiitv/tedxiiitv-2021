@@ -56,7 +56,7 @@ const Invite = () => {
         <div className="note-container">
           <p className="note">Note :</p>
           <p className="note-text">
-            *This year Event will be organised in Virtual Mode Only
+            *Due to the ongoing pandemic, the event will be organized in Virtual Mode
           </p>
         </div>
       </div>
