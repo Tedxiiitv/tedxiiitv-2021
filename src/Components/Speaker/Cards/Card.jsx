@@ -1,11 +1,11 @@
 import React from "react";
 import "./Card.scss";
 
-function Card({ name, subtitle, imgSrc }) {
+function Card({ name, subtitle, imgSrc, link }) {
   return (
     <div className="card">
       <img src={imgSrc} alt="dp" />
-      <p>{name}</p>
+      <a href={link} style={{textDecoration:'none'}}><p>{name}</p></a>
       <div className="line"></div>
       <div>{subtitle}</div>
     </div>
