@@ -42,7 +42,7 @@ function Speaker() {
             <>
               <div className="details">
                 <div className="back" onClick={clearState}>
-                  Back
+                   Back 
                 </div>
                 <div className="detailsContainer">
                   <img src={cardData.photo} alt="profile" />
