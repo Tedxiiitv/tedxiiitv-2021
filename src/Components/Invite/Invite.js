@@ -16,17 +16,13 @@ const Invite = () => {
           />
         </div>
         <div className="invite-item">
-          <h3 className="title">What is TEDx?</h3>
+          <h3 className="title">What is TEDxIIITV?</h3>
           <hr className="line" />
           <p className="text">
-            In the spirit of ideas worth spreading, TED has created a program
-            called TEDx. TEDx is a program of local, self-organized events that
-            bring people together to share a TED-like experience. Our event is
-            called TEDxIIITVadodara, where x = independently organized TED event.
-            At our TEDxIIITVadodara event, TED Talks video and live speakers will
-            combine to spark deep discussion and connection in a small group.
-            The TED Conference provides general guidance for the TEDx program,
-            but individual TEDx events, including ours, are self-organized.
+          Indian Institute of Information Technology Vadodara is one of India’s most rapidly growing institutes, 
+          imparting technical knowledge. To break the restraints on knowledge, IIITV brings to you TEDxIIITV, 
+          a learning experience like never before. Organized by the curious minds of IIITV, TEDxIIITV features 
+          live speakers sharing their thoughts on life and sparking a new flame of enthusiasm among the youth.
           </p>
         </div>
       </div>

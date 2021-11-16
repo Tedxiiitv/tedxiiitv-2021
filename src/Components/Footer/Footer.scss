@@ -6,115 +6,120 @@ $mobile: 600px;
   }
 }
 
-.footer-wrapper {
+.footer {
   @include mobile {
     display: none;
   }
-  border-top: 1px ridge rgb(100, 100, 100);
-  padding: 4em;
-  padding-top: 95px;
-  display: flex;
-  justify-content: space-between;
-  background-color: #000000;
 
-  .footer-container {
-    width: 17.875rem;
+  .footer-wrapper {
+    border-top: 1px ridge rgb(100, 100, 100);
+    padding: 4em;
+    padding-top: 95px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
 
-    .title {
-      color: #e62b1e;
-      width: max-content;
-      font-size: 1.875rem;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-    }
+    .footer-container {
+      width: 17.875rem;
 
-    .line {
-      margin: 0.625rem 0px;
-      margin-bottom: 0.125rem;
-      width: 10.938rem;
-      height: 1px;
-      background-color: #ffffff;
-    }
-
-    .link-container {
-      display: flex;
-      flex-direction: column;
-      font-size: 1.25rem;
-
-      .link {
-        width: fit-content;
-        font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
-        padding: 0.375rem;
-        padding-top: 1.25rem;
-        text-decoration: none;
-        color: #ffffff;
-      }
-
-      .red {
+      .title {
         color: #e62b1e;
+        width: max-content;
+        font-size: 1.875rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
       }
-    }
 
-    .social {
-      padding-top: 1.75rem;
-      padding-bottom: 2.5rem;
-      display: flex;
-
-      .social-link {
-        color: #ffffff;
-        padding-right: 2.125rem;
+      .line {
+        margin: 0.625rem 0px;
+        margin-bottom: 0.125rem;
+        width: 10.938rem;
+        height: 1px;
+        background-color: #ffffff;
       }
-    }
 
-    .text {
-      color: #ffffff;
-      font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
-      padding-top: 0.813rem;
-      padding-bottom: 0.875rem;
-    }
+      .link-container {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.25rem;
 
-    .input-box {
-      border-width: 1px;
-      border-style: solid;
-      background: #000000;
-      width: 14rem;
-      height: 2.25rem;
-      color: #ffffff;
-      padding: 0.5rem 0.688rem;
-      overflow: hidden;
-      margin-bottom: 1.125rem;
-      outline: none;
-    }
-
-    ::placeholder {
-      color: #ffffff;
-      font-size: 1rem;
-      letter-spacing: 0.5px;
-      font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
-    }
-
-    .button {
-      cursor: pointer;
-      background-color: #e62b1e;
-      border-radius: 2px;
-      width: 6.125rem;
-      height: 1.75rem;
-      border-style: none;
-      color: #ffffff;
-      font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
-    }
-
-    .flex-container {
-      display: flex;
-      flex-direction: column;
-      div {
-        border-left: 1px solid #e62b1e;
-        box-sizing: border-box;
-        padding-left: 15px;
-        margin-bottom: 20px;
-        p {
-          color: white;
+        .link {
+          width: fit-content;
           font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
-          margin-bottom: 5px;
+          padding: 0.375rem;
+          padding-top: 1.25rem;
+          text-decoration: none;
+          color: #ffffff;
+        }
+
+        .red {
+          color: #e62b1e;
+        }
+      }
+
+      .social {
+        padding-top: 1.75rem;
+        padding-bottom: 2.5rem;
+        display: flex;
+
+        .social-link {
+          color: #ffffff;
+          padding-right: 2.125rem;
+        }
+      }
+
+      .text {
+        color: #ffffff;
+        font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
+        padding-top: 0.813rem;
+        padding-bottom: 0.875rem;
+      }
+
+      .input-box {
+        border-width: 1px;
+        border-style: solid;
+        background: #000000;
+        width: 14rem;
+        height: 2.25rem;
+        color: #ffffff;
+        padding: 0.5rem 0.688rem;
+        overflow: hidden;
+        margin-bottom: 1.125rem;
+        outline: none;
+      }
+
+      ::placeholder {
+        color: #ffffff;
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
+      }
+
+      .button {
+        cursor: pointer;
+        background-color: #e62b1e;
+        border-radius: 2px;
+        width: 6.125rem;
+        height: 1.75rem;
+        border-style: none;
+        color: #ffffff;
+        font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+
+        div {
+          border-left: 1px solid #e62b1e;
+          box-sizing: border-box;
+          padding-left: 15px;
+          margin-bottom: 20px;
+
+          p {
+            color: white;
+            font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
+            margin-bottom: 5px;
+          }
         }
       }
     }

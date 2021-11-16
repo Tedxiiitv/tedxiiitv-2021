@@ -22,7 +22,7 @@ function Speaker() {
   const cards = data.map((card) => {
     return (
       <div onClick={() => onCardClick(card)}>
-        <Card name={card.name} subtitle={card.subtitle} imgSrc={card.photo} />
+        <Card name={card.name} subtitle={card.subtitle} imgSrc={card.photo} link={card.link} />
       </div>
     );
   });
@@ -42,12 +42,12 @@ function Speaker() {
             <>
               <div className="details">
                 <div className="back" onClick={clearState}>
-                   Back 
+                &larr; Back
                 </div>
                 <div className="detailsContainer">
                   <img src={cardData.photo} alt="profile" />
                   <div className="rightCard">
-                    <p>{cardData.name}</p>
+                  <a href={cardData.link}><p>{cardData.name}</p></a>
                     <div></div>
                     <p className="university">{cardData.subtitle}</p>
                     <p className="bio">{cardData.desc}</p>
