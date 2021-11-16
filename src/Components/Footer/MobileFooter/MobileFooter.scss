@@ -1,0 +1,139 @@
+@media screen and (min-width: 452px) {
+  .mobilefooter {
+    display: none;
+  }
+}
+
+.mobilefooter {
+  &__partionhr {
+    width: 100vw;
+    height: 1px;
+    background-color: #8a8a8a;
+  }
+  &__joinevent,
+  &__speakers,
+  &__getupdates,
+  &__socialmedia {
+    margin: 6% 8% 5%% 8%;
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        font-family: Gill Sans;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: 0em;
+        color: #e62b1e;
+      }
+      button {
+        cursor: pointer;
+        color: #e62b1e;
+        border-radius: 2px;
+        border-style: none;
+        font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 800;
+      }
+    }
+    &__content-transition-enter {
+      opacity: 0;
+    }
+    &__content-transition-enter-active {
+      opacity: 1;
+      transition: opacity 300ms;
+    }
+    &__content-transition-exit {
+      opacity: 1;
+    }
+    &__content-transition-exit-active {
+      opacity: 0;
+      transition: opacity 100ms;
+    }
+    &__content {
+      &__hrline {
+        width: 60%;
+        height: 1px;
+        background-color: #ffffff;
+        margin-top: 2%;
+      }
+      &__para {
+        color: white;
+        padding: 4% 0;
+        font-size: 1rem;
+      }
+      &__links {
+        display: flex;
+        flex-flow: column;
+        &__link {
+          padding-top: 2%;
+          text-decoration: none;
+          color: white;
+        }
+        &__linkred {
+          color: #e62b1e;
+        }
+      }
+      &__flexcontainer {
+        display: flex;
+        flex-flow: column;
+        &__inputbox {
+          border-width: 1px;
+          border-style: solid;
+          background: #000000;
+          width: 14rem;
+          height: 2.25rem;
+          color: #ffffff;
+          padding: 0.5rem 0.688rem;
+          overflow: hidden;
+          margin-bottom: 1.125rem;
+          outline: none;
+        }
+        ::placeholder {
+          color: #ffffff;
+          font-size: 1rem;
+          letter-spacing: 0.5px;
+          font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
+        }
+        &__button {
+          cursor: pointer;
+          background-color: #e62b1e;
+          border-radius: 2px;
+          width: 5rem;
+          padding: 1.4% 0;
+          border-style: none;
+          color: #ffffff;
+          font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
+          font-size: 1rem;
+        }
+        &__flexitem {
+          border-left: 1px solid #e62b1e;
+          margin: 2% 0;
+          padding-left: 2%;
+          color: white;
+        }
+      }
+      &__socialcontainer {
+        padding-top: 1.75rem;
+        padding-bottom: 2.5rem;
+        display: flex;
+        &__link {
+          color: #ffffff;
+          padding-right: 2.125rem;
+        }
+      }
+    }
+  }
+
+  &__disclaimer {
+    color: white;
+    font-family: Gill Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.1rem;
+    text-align: center;
+    padding: 5% 4% 0 4%;
+  }
+}

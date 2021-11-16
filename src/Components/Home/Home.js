@@ -5,6 +5,7 @@ import MobileBackground from "../Background/MobileBackground";
 import Social from "../Social/Social";
 import Invite from "../Invite/Invite";
 import Footer from "../Footer/Footer";
+import MobileFooter from "../Footer/MobileFooter/MobileFooter";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Social />
       <Invite />
       <Footer />
+      <MobileFooter />
     </div>
   );
 }
