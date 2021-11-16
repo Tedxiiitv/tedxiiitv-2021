@@ -5,12 +5,16 @@
 }
 
 .mobilefooter {
-  padding: 0 8% 5% 8%;
+  &__partionhr {
+    width: 100vw;
+    height: 1px;
+    background-color: #8a8a8a;
+  }
   &__joinevent,
   &__speakers,
   &__getupdates,
   &__socialmedia {
-    padding-top: 5%;
+    margin: 6% 8% 5%% 8%;
     &__heading {
       display: flex;
       justify-content: space-between;
@@ -83,14 +87,11 @@
           background-color: #e62b1e;
           border-radius: 2px;
           width: 5rem;
-          height: 1.75rem;
+          padding: 1.4% 0;
           border-style: none;
           color: #ffffff;
           font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
           font-size: 1rem;
-          display: flex;
-          align-items: center;
-          justify-content: center;
         }
         &__flexitem {
           border-left: 1px solid #e62b1e;
@@ -119,6 +120,6 @@
     font-weight: 100;
     line-height: 1.1rem;
     text-align: center;
-    padding: 15% 4% 0 4%;
+    padding: 5% 4% 0 4%;
   }
 }

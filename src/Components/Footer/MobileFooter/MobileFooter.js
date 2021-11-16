@@ -10,6 +10,7 @@ const MobileFooter = () => {
   const [socialMediaSection, setSocialMediaSection] = useState(false);
   return (
     <div className="mobilefooter">
+      <div className="mobilefooter__partionhr" />
       <div className="mobilefooter__joinevent">
         <div className="mobilefooter__joinevent__heading">
           <h2>Join Our Event</h2>
