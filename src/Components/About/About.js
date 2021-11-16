@@ -2,6 +2,7 @@ import React from "react";
 import "./About.scss";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import MobileFooter from "../Footer/MobileFooter/MobileFooter";
 
 function About() {
   return (
@@ -52,6 +53,7 @@ function About() {
         <div className="line" />
       </div>
       <Footer />
+      <MobileFooter />
     </div>
   );
 }

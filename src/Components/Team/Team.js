@@ -4,6 +4,7 @@ import TeamName from "./TeamNames/TeamName";
 import TeamMember from "./TeamMembers/TeamMember";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import MobileFooter from "../Footer/MobileFooter/MobileFooter";
 import TeamDropDown from './TeamDropdown/TeamDropdown'
 import { useState } from "react";
 
@@ -39,6 +40,7 @@ const Team = () => {
         <TeamMember selectedTeam={selectedTeam} />
       </div>
       <Footer />
+      <MobileFooter />
     </div>
   );
 };
