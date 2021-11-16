@@ -37,6 +37,20 @@
         font-weight: 800;
       }
     }
+    &__content-transition-enter {
+      opacity: 0;
+    }
+    &__content-transition-enter-active {
+      opacity: 1;
+      transition: opacity 300ms;
+    }
+    &__content-transition-exit {
+      opacity: 1;
+    }
+    &__content-transition-exit-active {
+      opacity: 0;
+      transition: opacity 100ms;
+    }
     &__content {
       &__hrline {
         width: 60%;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./MobileFooter.scss";
 import "font-awesome/css/font-awesome.min.css";
-import { CSSTransition } from "react-transition-group";
+import { CSSTransition } from 'react-transition-group';
 
 const MobileFooter = () => {
   const [joinEventSection, setjoinEventSection] = useState(false);
@@ -13,58 +13,64 @@ const MobileFooter = () => {
     <div className="mobilefooter">
       <div className="mobilefooter__partionhr" />
 
-      <div className="mobilefooter__joinevent">
-        <div className="mobilefooter__joinevent__heading">
-          <h2>Join Our Event</h2>
-          <div>
-            {joinEventSection ? (
-              <button
-                onClick={() => {
-                  setjoinEventSection(false);
-                }}
-              >
-                --
-              </button>
-            ) : (
-              <button
-                onClick={() => {
-                  setjoinEventSection(true);
-                }}
-              >
-                +
-              </button>
-            )}
-          </div>
-        </div>
-        <CSSTransition
-          in={joinEventSection}
-          timeout={300}
-          classNames="mobilefooter__joinevent__content-transition"
-          unmountOnExit
-        >
-          <div className="mobilefooter__joinevent__content">
-            <div className="mobilefooter__joinevent__content__hrline" />
-            <div className="mobilefooter__joinevent__content__para">
-              Would you like to attend TEDx ?
-            </div>
-            <form action="https://formspree.io/f/mnqleayp" method="POST">
-              <div className="mobilefooter__joinevent__content__flexcontainer">
-                <input
-                  className="mobilefooter__joinevent__content__flexcontainer__inputbox"
-                  placeholder="Email"
-                  name="_replyto"
-                />
+      <CSSTransition
+        in={showMessage}
+        timeout={300}
+        classNames="alert"
+        unmountOnExit
+        onEnter={() => setShowButton(false)}
+        onExited={() => setShowButton(true)}
+      >
+        <div className="mobilefooter__joinevent" key="mobilefooter__joinevent">
+          <div className="mobilefooter__joinevent__heading">
+            <h2>Join Our Event</h2>
+            <div>
+              {joinEventSection ? (
                 <button
-                  className="mobilefooter__joinevent__content__flexcontainer__button"
-                  type="submit"
+                  onClick={() => {
+                    setjoinEventSection(false);
+                  }}
                 >
-                  Submit
+                  --
                 </button>
-              </div>
-            </form>
+              ) : (
+                <button
+                  onClick={() => {
+                    setjoinEventSection(true);
+                  }}
+                >
+                  +
+                </button>
+              )}
+            </div>
           </div>
-        </CSSTransition>
-      </div>
+          {joinEventSection ? (
+            <div className="mobilefooter__joinevent__content">
+              <div className="mobilefooter__joinevent__content__hrline" />
+              <div className="mobilefooter__joinevent__content__para">
+                Would you like to attend TEDx ?
+              </div>
+              <form action="https://formspree.io/f/mnqleayp" method="POST">
+                <div className="mobilefooter__joinevent__content__flexcontainer">
+                  <input
+                    className="mobilefooter__joinevent__content__flexcontainer__inputbox"
+                    placeholder="Email"
+                    name="_replyto"
+                  />
+                  <button
+                    className="mobilefooter__joinevent__content__flexcontainer__button"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          ) : (
+            ""
+          )}
+        </div>
+      </CSSTransition>
 
       <div className="mobilefooter__speakers">
         <div className="mobilefooter__speakers__heading">
@@ -89,12 +95,7 @@ const MobileFooter = () => {
             )}
           </div>
         </div>
-        <CSSTransition
-          in={speakersSection}
-          timeout={300}
-          classNames="mobilefooter__joinevent__content-transition"
-          unmountOnExit
-        >
+        {speakersSection ? (
           <div className="mobilefooter__speakers__content">
             <div className="mobilefooter__speakers__content__hrline" />
             <div className="mobilefooter__speakers__content__links">
@@ -124,7 +125,9 @@ const MobileFooter = () => {
               </Link>
             </div>
           </div>
-        </CSSTransition>
+        ) : (
+          ""
+        )}
       </div>
 
       <div className="mobilefooter__getupdates">
@@ -150,12 +153,7 @@ const MobileFooter = () => {
             )}
           </div>
         </div>
-        <CSSTransition
-          in={getUpdatesSection}
-          timeout={300}
-          classNames="mobilefooter__joinevent__content-transition"
-          unmountOnExit
-        >
+        {getUpdatesSection ? (
           <div className="mobilefooter__getupdates__content">
             <div className="mobilefooter__getupdates__content__hrline" />
             <div className="mobilefooter__getupdates__content__para">
@@ -172,7 +170,9 @@ const MobileFooter = () => {
               </div>
             </div>
           </div>
-        </CSSTransition>
+        ) : (
+          ""
+        )}
       </div>
 
       <div className="mobilefooter__socialmedia">
@@ -198,12 +198,7 @@ const MobileFooter = () => {
             )}
           </div>
         </div>
-        <CSSTransition
-          in={socialMediaSection}
-          timeout={300}
-          classNames="mobilefooter__joinevent__content-transition"
-          unmountOnExit
-        >
+        {socialMediaSection ? (
           <div className="mobilefooter__socialmedia__content">
             <div className="mobilefooter__socialmedia__content__hrline" />
             <div className="mobilefooter__socialmedia__content__socialcontainer fa fa-lg">
@@ -241,7 +236,9 @@ const MobileFooter = () => {
               </a>
             </div>
           </div>
-        </CSSTransition>
+        ) : (
+          ""
+        )}
       </div>
 
       <div className="mobilefooter__disclaimer">
