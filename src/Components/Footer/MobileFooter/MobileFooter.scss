@@ -82,12 +82,15 @@
           cursor: pointer;
           background-color: #e62b1e;
           border-radius: 2px;
-          width: 6.125rem;
+          width: 5rem;
           height: 1.75rem;
           border-style: none;
           color: #ffffff;
           font-family: "Gill Sans Light", "Gill Sans MT", Calibri, sans-serif;
           font-size: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
         &__flexitem {
           border-left: 1px solid #e62b1e;
