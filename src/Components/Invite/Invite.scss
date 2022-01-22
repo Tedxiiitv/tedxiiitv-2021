@@ -8,74 +8,7 @@ $mobile: 600px;
 
 .invite-wrapper {
   background-color: #000000;
-
-  .youtube-container {
-    display: flex;
-    @include mobile {
-      flex-direction: column;
-      text-align: center;
-    }
-    padding-bottom: 5rem;
-
-    .invite-item {
-      flex: 50%;
-
-      .youtube-embed {
-        width: 33.913rem;
-        height: 15.926rem;
-        @include mobile {
-          width: 234.8px;
-          height: 113.89px;
-          margin-bottom: 10px;
-        }
-      }
-
-      .title {
-        color: #ff000b;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-        font-weight: 600;
-        font-size: 2.5rem;
-        @include mobile {
-          font-size: 16px;
-        }
-      }
-
-      .line {
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-        height: 2px;
-        width: 19.125rem;
-        background-color: #ffffff;
-        @include mobile {
-          width: 130px;
-          margin: 12px auto 10px auto;
-
-        }
-      }
-
-      .text {
-        padding-right: 3.85rem;
-        padding-left: 0;
-        font-size: 1.625rem;
-        color: #ffffff;
-        font-family: "Gill Sans Light", "Gill Sans", Calibri, sans-serif;
-        font-weight: 300;
-        @include mobile {
-          font-size: 16px;
-          width: 75%;
-          margin: auto;
-          padding: 0;
-        }
-      }
-    }
-
-    .youtube {
-      padding-top: 60px;
-      text-align: center;
-    }
-  }
-
-  .white-line {
+   .white-line {
     width: 200px;
     margin: 15px auto 60px;
     background-color: #ffffff;
