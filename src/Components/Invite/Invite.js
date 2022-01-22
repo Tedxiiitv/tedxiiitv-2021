@@ -5,35 +5,17 @@ import svg from "../../Assests/calendar.svg";
 const Invite = () => {
   return (
     <div className="invite-wrapper">
-      <div className="youtube-container">
-        <div className="invite-item youtube">
-          <iframe
-            src="https://www.youtube.com/embed/0n4dKcCw64Y"
-            allow="autoplay; encrypted-media"
-            allowfullscreen
-            title="video"
-            className="youtube-embed"
-          />
-        </div>
-        <div className="invite-item">
-          <h3 className="title">What is TEDxIIITV?</h3>
-          <hr className="line" />
-          <p className="text">
-          Indian Institute of Information Technology Vadodara is one of India’s most rapidly growing institutes, 
-          imparting technical knowledge. To break the restraints on knowledge, IIITV brings to you TEDxIIITV, 
-          a learning experience like never before. Organized by the curious minds of IIITV, TEDxIIITV features 
-          live speakers sharing their thoughts on life and sparking a new flame of enthusiasm among the youth.
-          </p>
-        </div>
-      </div>
-
-      <hr className="white-line"/>
+      <hr className="white-line" />
 
       <div className="map-container">
         <h2 className="title-red">Mark your calendars</h2>
         <h1 className="title-shadow">17th - 19th December 2021</h1>
-        <a href="https://www.google.com/calendar" target="_blank" rel="noreferrer">
-          <img src={svg} className="icon" alt="calendar invite"/>
+        <a
+          href="https://www.google.com/calendar"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={svg} className="icon" alt="calendar invite" />
         </a>
         <h2 className="title-iiitv">
           IIIT Vadodara

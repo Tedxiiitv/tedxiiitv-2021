@@ -1,14 +1,17 @@
-import React from 'react';
+import React from "react";
 import Navbar from "../Navbar/Navbar";
-import ComingSoon from "../ComingSoon/ComingSoon";
+import VideoBox from "../VideoBox/VideoBox";
+import talkData from "./talkData.json";
 
 const Talk = () => {
   return (
     <>
       <Navbar />
-      <ComingSoon />
+      {talkData.map(({ link, title, speaker, text }) => (
+        <VideoBox link={link} title={title} speaker={speaker} text={text} />
+      ))}
     </>
-  )
-}
+  );
+};
 
 export default Talk;
